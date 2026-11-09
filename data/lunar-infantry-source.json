@@ -1,0 +1,12 @@
+{
+  "source": "D:/Red_Alet_II/YURI/langmd.mix::cameomd.mix::lunricon.shp",
+  "icon": "assets/unit-icons/yr/units/lunr.png",
+  "png_sha256": "9462d37e9d35a6b6e37fc51ced5d90eab2d8456a94b9c569151c3b3bffc10f9e",
+  "source_pixels_match": true,
+  "game_id": "LUNR",
+  "categories": [
+    "air"
+  ],
+  "faction": "soviet",
+  "visibility": "regular board; air filter only"
+}

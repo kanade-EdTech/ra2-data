@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="红警2原版与尤里的复仇单位、建筑和武器规则数值查询。">
+  <title>红警2 单位数据库</title>
+  <link rel="icon" href="ra2-conghangdaola-mainboard/images/assets/factions/allied.png">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <script defer src="assets/data/database.js"></script>
+  <script defer src="assets/js/core.js"></script>
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#results-title">跳到查询结果</a>
+  <header>
+    <div class="brand"><h1>RA2 单位数据库</h1><p>Command &amp; Conquer · 原版与尤复数值速查</p></div>
+    <label class="version-label">游戏版本
+      <select id="version"><option value="yr">尤里的复仇</option><option value="ra2" selected>红警2原版</option></select>
+    </label>
+    <form id="search-form" role="search">
+      <label class="sr-only" for="search">搜索单位名称、英文名或代号</label>
+      <input id="search" type="search" placeholder="搜索名称 / 英文名 / 代号…" autocomplete="off">
+      <button id="query" class="accent" type="submit">查询</button>
+    </form>
+  </header>
+  <p id="load-error" class="error" role="alert" hidden></p>
+  <noscript><p class="error">请启用 JavaScript 后使用查询功能。</p></noscript>
+  <div class="layout">
+    <aside aria-label="单位筛选">
+      <details class="filters" open>
+        <summary><span>筛选条件</span><span id="current-filters" class="filter-summary"></span></summary>
+        <label for="faction">阵营</label>
+        <select id="faction">
+          <option value="">全部</option><option value="allied">盟军</option>
+          <option value="soviet" selected>苏军</option><option value="yuri">尤里</option>
+          <option value="neutral">中立</option><option value="unknown">未分类</option>
+        </select>
+        <label for="type">类型</label>
+        <select id="type">
+          <option value="">全部</option><option value="infantry">步兵</option>
+          <option value="ground" selected>地面载具</option><option value="air">空中单位</option>
+          <option value="naval">海军</option><option value="building">建筑</option>
+          <option value="unknown">未分类</option>
+        </select>
+        <fieldset class="range-group">
+          <legend>数值范围</legend>
+          <label for="cost">最高造价</label>
+          <input id="cost" type="number" min="0" step="any" placeholder="不限">
+          <label class="sr-only" for="cost-range">调整最高造价</label>
+          <input id="cost-range" type="range" min="0" step="any">
+          <button type="button" id="cost-clear" class="subtle">造价不限</button>
+          <label for="health">最低生命</label>
+          <input id="health" type="number" min="0" step="any" placeholder="不限">
+          <label class="sr-only" for="health-range">调整最低生命</label>
+          <input id="health-range" type="range" min="0" step="any">
+          <button type="button" id="health-clear" class="subtle">生命不限</button>
+        </fieldset>
+        <label for="tech">科技等级 TechLevel</label>
+        <select id="tech">
+          <option value="">全部</option><option value="negative">负值</option><option value="0">0</option>
+          <option value="1">1</option><option value="2">2</option><option value="3">3</option>
+          <option value="4+">4+</option><option value="missing">未配置</option>
+        </select>
+        <label for="status">定义状态</label>
+        <select id="status"><option value="">全部</option><option>已定义</option><option>注册但无定义</option></select>
+        <button type="button" id="reset" class="accent">重置筛选</button>
+        <label class="hidden-toggle"><input id="show-hidden" type="checkbox">显示隐藏单位</label>
+        <p class="muted">包含三阵营无独立图标的单位及建筑。基地车和部署后的基地默认保留。</p>
+      </details>
+    </aside>
+    <main id="list">
+      <div class="toolbar">
+        <h2 id="results-title" tabindex="-1">查询结果</h2>
+        <span id="count" role="status">正在读取数据…</span>
+        <div class="sorting">
+          <label for="sort">排序</label>
+          <select id="sort"><option value="name">名称</option><option value="COST">造价</option>
+            <option value="STRENGTH">生命值</option><option value="SPEED">速度</option></select>
+          <label class="sr-only" for="direction">排序方向</label>
+          <select id="direction"><option value="1">升序</option><option value="-1">降序</option></select>
+        </div>
+      </div>
+      <div id="grid" class="grid"></div>
+      <nav aria-label="查询结果分页">
+        <button type="button" id="prev">上一页</button><span id="page"></span><button type="button" id="next">下一页</button>
+      </nav>
+    </main>
+    <section class="detail" id="detail" aria-label="单位详情"><p>正在读取详情…</p></section>
+  </div>
+  <footer>数据来源于 rules.ini / rulesmd.ini · 保留显式配置值 ·
+    <a href="data/all-unit-stats.md">单位原始参数</a> · <a href="data/all-unit-weapons.md">武器原始参数</a>
+    <p>覆盖已导出的注册条目。特殊伤害、全局倍率和引擎默认值需结合来源核实。</p>
+  </footer>
+</body>
+</html>
+

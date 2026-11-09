@@ -1,0 +1,10 @@
+{
+  "page": "https://www.gov.cn/guoqing/guoqi/index.htm",
+  "download": "https://www.gov.cn/guoqing/20201231/guoqi.zip",
+  "sha256": "34f311db8d4705479818d2e6b01743c8f14a6e8f88b13321f6732208d777f38f",
+  "size": [
+    1024,
+    683
+  ],
+  "transformation": "none; display aspect ratio 3:2"
+}

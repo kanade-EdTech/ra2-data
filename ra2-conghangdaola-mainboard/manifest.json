@@ -1,0 +1,6942 @@
+{
+  "exportDate": "2026-11-08",
+  "project": "F:\\VS_Code_Project\\ra2-conghangdaola\\",
+  "scope": "main board regular and T4 including air-only conditional units",
+  "stats": {
+    "ra2": {
+      "items": 89,
+      "defaultVisible": 89
+    },
+    "yr": {
+      "items": 127,
+      "defaultVisible": 126
+    }
+  },
+  "itemCount": 216,
+  "imageCount": 216,
+  "indexes": [
+    "ra2/类别/all.md",
+    "ra2/类别/infantry.md",
+    "ra2/类别/ground.md",
+    "ra2/类别/naval.md",
+    "ra2/类别/air.md",
+    "ra2/类别/factory.md",
+    "ra2/类别/barracks.md",
+    "ra2/类别/building.md",
+    "ra2/类别/defense.md",
+    "ra2/阵营/allied.md",
+    "ra2/阵营/soviet.md",
+    "ra2/科技/basic.md",
+    "ra2/科技/radar.md",
+    "ra2/科技/lab.md",
+    "ra2/科技/spy.md",
+    "ra2/README.md",
+    "yr/类别/all.md",
+    "yr/类别/infantry.md",
+    "yr/类别/ground.md",
+    "yr/类别/naval.md",
+    "yr/类别/air.md",
+    "yr/类别/factory.md",
+    "yr/类别/barracks.md",
+    "yr/类别/building.md",
+    "yr/类别/defense.md",
+    "yr/阵营/allied.md",
+    "yr/阵营/soviet.md",
+    "yr/阵营/yuri.md",
+    "yr/科技/basic.md",
+    "yr/科技/radar.md",
+    "yr/科技/lab.md",
+    "yr/科技/spy.md",
+    "yr/README.md",
+    "README.md"
+  ],
+  "items": [
+    {
+      "id": "unit:ra2:E1",
+      "gameId": "E1",
+      "version": "ra2",
+      "name": "美国大兵",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/e1.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/e1.png"
+    },
+    {
+      "id": "unit:ra2:E2",
+      "gameId": "E2",
+      "version": "ra2",
+      "name": "动员兵",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/e2.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/e2.png"
+    },
+    {
+      "id": "unit:ra2:SHK",
+      "gameId": "SHK",
+      "version": "ra2",
+      "name": "磁爆步兵",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "5",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/shk.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/shk.png"
+    },
+    {
+      "id": "unit:ra2:ENGINEER",
+      "gameId": "ENGINEER",
+      "version": "ra2",
+      "name": "工程师",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/engineer.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/engineer.png"
+    },
+    {
+      "id": "unit:ra2:JUMPJET",
+      "gameId": "JUMPJET",
+      "version": "ra2",
+      "name": "火箭飞行兵",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry",
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "3",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/jumpjet.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/jumpjet.png"
+    },
+    {
+      "id": "unit:ra2:YURI",
+      "gameId": "YURI",
+      "version": "ra2",
+      "name": "尤里",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "10",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/yuri.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/yuri.png"
+    },
+    {
+      "id": "unit:ra2:IVAN",
+      "gameId": "IVAN",
+      "version": "ra2",
+      "name": "疯狂伊文",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "5",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/ivan.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/ivan.png"
+    },
+    {
+      "id": "unit:ra2:DESO",
+      "gameId": "DESO",
+      "version": "ra2",
+      "name": "辐射工兵",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "8",
+      "countries": [
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/deso.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": true,
+      "exportImage": "images/assets/unit-icons/ra2/units/deso.png"
+    },
+    {
+      "id": "unit:ra2:DOG",
+      "gameId": "DOG",
+      "version": "ra2",
+      "name": "军犬",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/dog.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/dog.png"
+    },
+    {
+      "id": "unit:ra2:CLEG",
+      "gameId": "CLEG",
+      "version": "ra2",
+      "name": "超时空军团兵",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "10",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/cleg.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/cleg.png"
+    },
+    {
+      "id": "unit:ra2:SPY",
+      "gameId": "SPY",
+      "version": "ra2",
+      "name": "间谍",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "5",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/spy.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/spy.png"
+    },
+    {
+      "id": "unit:ra2:CCOMAND",
+      "gameId": "CCOMAND",
+      "version": "ra2",
+      "name": "超时空突击队",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "t4",
+      "techStage": "spy",
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/ccomand.png",
+      "kind": "unit",
+      "acquisition": "ALLIED",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/ccomand.png"
+    },
+    {
+      "id": "unit:ra2:PTROOP",
+      "gameId": "PTROOP",
+      "version": "ra2",
+      "name": "心灵突击队",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "t4",
+      "techStage": "spy",
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/ptroop.png",
+      "kind": "unit",
+      "acquisition": "SOVIET",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/ptroop.png"
+    },
+    {
+      "id": "unit:ra2:CIVAN",
+      "gameId": "CIVAN",
+      "version": "ra2",
+      "name": "超时空伊文",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "t4",
+      "techStage": "spy",
+      "techLevelRaw": "9",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/civan.png",
+      "kind": "unit",
+      "acquisition": "ALLIED",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/civan.png"
+    },
+    {
+      "id": "unit:ra2:YURIPR",
+      "gameId": "YURIPR",
+      "version": "ra2",
+      "name": "尤里改",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "t4",
+      "techStage": "spy",
+      "techLevelRaw": "9",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/yuripr.png",
+      "kind": "unit",
+      "acquisition": "SOVIET",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/yuripr.png"
+    },
+    {
+      "id": "unit:ra2:SNIPE",
+      "gameId": "SNIPE",
+      "version": "ra2",
+      "name": "狙击手",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "1",
+      "countries": [
+        "British"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/snipe.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": true,
+      "exportImage": "images/assets/unit-icons/ra2/units/snipe.png"
+    },
+    {
+      "id": "unit:ra2:TANY",
+      "gameId": "TANY",
+      "version": "ra2",
+      "name": "谭雅",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/tany.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/tany.png"
+    },
+    {
+      "id": "unit:ra2:FLAKT",
+      "gameId": "FLAKT",
+      "version": "ra2",
+      "name": "防空步兵",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "1",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/flakt.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/flakt.png"
+    },
+    {
+      "id": "unit:ra2:TERROR",
+      "gameId": "TERROR",
+      "version": "ra2",
+      "name": "恐怖分子",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "5",
+      "countries": [
+        "Confederation"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/terror.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": true,
+      "exportImage": "images/assets/unit-icons/ra2/units/terror.png"
+    },
+    {
+      "id": "unit:ra2:SENGINEER",
+      "gameId": "SENGINEER",
+      "version": "ra2",
+      "name": "工程师",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/sengineer.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/sengineer.png"
+    },
+    {
+      "id": "unit:ra2:ADOG",
+      "gameId": "ADOG",
+      "version": "ra2",
+      "name": "军犬",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/adog.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/adog.png"
+    },
+    {
+      "id": "unit:ra2:AMCV",
+      "gameId": "AMCV",
+      "version": "ra2",
+      "name": "盟军基地车",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "10",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/amcv.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/amcv.png"
+    },
+    {
+      "id": "unit:ra2:HARV",
+      "gameId": "HARV",
+      "version": "ra2",
+      "name": "武装采矿车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/harv.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/harv.png"
+    },
+    {
+      "id": "unit:ra2:APOC",
+      "gameId": "APOC",
+      "version": "ra2",
+      "name": "天启坦克",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "7",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/apoc.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/apoc.png"
+    },
+    {
+      "id": "unit:ra2:HTNK",
+      "gameId": "HTNK",
+      "version": "ra2",
+      "name": "犀牛坦克",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/htnk.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/htnk.png"
+    },
+    {
+      "id": "unit:ra2:SAPC",
+      "gameId": "SAPC",
+      "version": "ra2",
+      "name": "苏军运输船",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/sapc.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/sapc.png"
+    },
+    {
+      "id": "unit:ra2:MTNK",
+      "gameId": "MTNK",
+      "version": "ra2",
+      "name": "灰熊坦克",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/mtnk.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/mtnk.png"
+    },
+    {
+      "id": "unit:ra2:CARRIER",
+      "gameId": "CARRIER",
+      "version": "ra2",
+      "name": "航空母舰",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "7",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/carrier.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/carrier.png"
+    },
+    {
+      "id": "unit:ra2:V3",
+      "gameId": "V3",
+      "version": "ra2",
+      "name": "V3 火箭发射车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "3",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/v3.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/v3.png"
+    },
+    {
+      "id": "unit:ra2:ZEP",
+      "gameId": "ZEP",
+      "version": "ra2",
+      "name": "基洛夫空艇",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "10",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/zep.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/zep.png"
+    },
+    {
+      "id": "unit:ra2:DRON",
+      "gameId": "DRON",
+      "version": "ra2",
+      "name": "恐怖机器人",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "4",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/dron.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/dron.png"
+    },
+    {
+      "id": "unit:ra2:HTK",
+      "gameId": "HTK",
+      "version": "ra2",
+      "name": "防空履带车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "3",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/htk.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/htk.png"
+    },
+    {
+      "id": "unit:ra2:DEST",
+      "gameId": "DEST",
+      "version": "ra2",
+      "name": "驱逐舰",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "4",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/dest.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/dest.png"
+    },
+    {
+      "id": "unit:ra2:SUB",
+      "gameId": "SUB",
+      "version": "ra2",
+      "name": "台风潜艇",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/sub.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/sub.png"
+    },
+    {
+      "id": "unit:ra2:AEGIS",
+      "gameId": "AEGIS",
+      "version": "ra2",
+      "name": "神盾巡洋舰",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "7",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/aegis.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/aegis.png"
+    },
+    {
+      "id": "unit:ra2:LCRF",
+      "gameId": "LCRF",
+      "version": "ra2",
+      "name": "盟军运输船",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "4",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/lcrf.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/lcrf.png"
+    },
+    {
+      "id": "unit:ra2:DRED",
+      "gameId": "DRED",
+      "version": "ra2",
+      "name": "无畏级战舰",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "6",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/dred.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/dred.png"
+    },
+    {
+      "id": "unit:ra2:SHAD",
+      "gameId": "SHAD",
+      "version": "ra2",
+      "name": "夜鹰直升机",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "7",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/shad.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/shad.png"
+    },
+    {
+      "id": "unit:ra2:SQD",
+      "gameId": "SQD",
+      "version": "ra2",
+      "name": "巨型乌贼",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "9",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/sqd.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/sqd.png"
+    },
+    {
+      "id": "unit:ra2:DLPH",
+      "gameId": "DLPH",
+      "version": "ra2",
+      "name": "海豚",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "5",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/dlph.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/dlph.png"
+    },
+    {
+      "id": "unit:ra2:SMCV",
+      "gameId": "SMCV",
+      "version": "ra2",
+      "name": "苏军基地车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "10",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/smcv.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/smcv.png"
+    },
+    {
+      "id": "unit:ra2:TNKD",
+      "gameId": "TNKD",
+      "version": "ra2",
+      "name": "坦克杀手",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "2",
+      "countries": [
+        "Germans"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/tnkd.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": true,
+      "exportImage": "images/assets/unit-icons/ra2/units/tnkd.png"
+    },
+    {
+      "id": "unit:ra2:TTNK",
+      "gameId": "TTNK",
+      "version": "ra2",
+      "name": "磁能坦克",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "10",
+      "countries": [
+        "Russians"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/ttnk.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": true,
+      "exportImage": "images/assets/unit-icons/ra2/units/ttnk.png"
+    },
+    {
+      "id": "unit:ra2:CMIN",
+      "gameId": "CMIN",
+      "version": "ra2",
+      "name": "超时空采矿车",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/cmin.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/cmin.png"
+    },
+    {
+      "id": "unit:ra2:SREF",
+      "gameId": "SREF",
+      "version": "ra2",
+      "name": "光棱坦克",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "8",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/sref.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/sref.png"
+    },
+    {
+      "id": "unit:ra2:HYD",
+      "gameId": "HYD",
+      "version": "ra2",
+      "name": "海蝎",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "6",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/hyd.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/hyd.png"
+    },
+    {
+      "id": "unit:ra2:MGTK",
+      "gameId": "MGTK",
+      "version": "ra2",
+      "name": "幻影坦克",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/mgtk.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/mgtk.png"
+    },
+    {
+      "id": "unit:ra2:FV",
+      "gameId": "FV",
+      "version": "ra2",
+      "name": "多功能步兵车",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "3",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/fv.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/fv.png"
+    },
+    {
+      "id": "unit:ra2:DTRUCK",
+      "gameId": "DTRUCK",
+      "version": "ra2",
+      "name": "自爆卡车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "10",
+      "countries": [
+        "Africans"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/dtruck.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": true,
+      "exportImage": "images/assets/unit-icons/ra2/units/dtruck.png"
+    },
+    {
+      "id": "unit:ra2:ORCA",
+      "gameId": "ORCA",
+      "version": "ra2",
+      "name": "入侵者战机",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "3",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/orca.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/ra2/units/orca.png"
+    },
+    {
+      "id": "unit:ra2:BEAG",
+      "gameId": "BEAG",
+      "version": "ra2",
+      "name": "黑鹰战机",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "3",
+      "countries": [
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/beag.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": true,
+      "exportImage": "images/assets/unit-icons/ra2/units/beag.png"
+    },
+    {
+      "id": "building:ra2:GAPOWR",
+      "gameId": "GAPOWR",
+      "version": "ra2",
+      "name": "发电厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/gapowr.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/gapowr.png"
+    },
+    {
+      "id": "building:ra2:GAREFN",
+      "gameId": "GAREFN",
+      "version": "ra2",
+      "name": "盟军矿石精炼厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/garefn.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/garefn.png"
+    },
+    {
+      "id": "building:ra2:GACNST",
+      "gameId": "GACNST",
+      "version": "ra2",
+      "name": "盟军建造厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": null,
+      "exportImage": "images/assets/factions/allied.png"
+    },
+    {
+      "id": "building:ra2:GAPILE",
+      "gameId": "GAPILE",
+      "version": "ra2",
+      "name": "盟军兵营",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/gapile.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/gapile.png"
+    },
+    {
+      "id": "building:ra2:GADEPT",
+      "gameId": "GADEPT",
+      "version": "ra2",
+      "name": "盟军维修厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/gadept.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/gadept.png"
+    },
+    {
+      "id": "building:ra2:GATECH",
+      "gameId": "GATECH",
+      "version": "ra2",
+      "name": "盟军作战实验室",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "radar",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/gatech.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/gatech.png"
+    },
+    {
+      "id": "building:ra2:GAWEAP",
+      "gameId": "GAWEAP",
+      "version": "ra2",
+      "name": "盟军战车工厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/gaweap.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/gaweap.png"
+    },
+    {
+      "id": "building:ra2:NAPOWR",
+      "gameId": "NAPOWR",
+      "version": "ra2",
+      "name": "磁能反应炉",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/napowr.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/napowr.png"
+    },
+    {
+      "id": "building:ra2:NATECH",
+      "gameId": "NATECH",
+      "version": "ra2",
+      "name": "苏军作战实验室",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "radar",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/natech.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/natech.png"
+    },
+    {
+      "id": "building:ra2:NAHAND",
+      "gameId": "NAHAND",
+      "version": "ra2",
+      "name": "苏军兵营",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/nahand.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/nahand.png"
+    },
+    {
+      "id": "building:ra2:GAWALL",
+      "gameId": "GAWALL",
+      "version": "ra2",
+      "name": "盟军围墙",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/gawall.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/gawall.png"
+    },
+    {
+      "id": "building:ra2:NARADR",
+      "gameId": "NARADR",
+      "version": "ra2",
+      "name": "雷达",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/naradr.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/naradr.png"
+    },
+    {
+      "id": "building:ra2:NAWEAP",
+      "gameId": "NAWEAP",
+      "version": "ra2",
+      "name": "苏军战车工厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/naweap.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/naweap.png"
+    },
+    {
+      "id": "building:ra2:NAREFN",
+      "gameId": "NAREFN",
+      "version": "ra2",
+      "name": "苏军矿石精炼厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/narefn.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/narefn.png"
+    },
+    {
+      "id": "building:ra2:NAWALL",
+      "gameId": "NAWALL",
+      "version": "ra2",
+      "name": "苏军围墙",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/nawall.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/nawall.png"
+    },
+    {
+      "id": "building:ra2:NAPSIS",
+      "gameId": "NAPSIS",
+      "version": "ra2",
+      "name": "心灵探测器",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/napsis.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/napsis.png"
+    },
+    {
+      "id": "building:ra2:NALASR",
+      "gameId": "NALASR",
+      "version": "ra2",
+      "name": "哨戒炮",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/nalasr.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/nalasr.png"
+    },
+    {
+      "id": "building:ra2:NASAM",
+      "gameId": "NASAM",
+      "version": "ra2",
+      "name": "爱国者导弹",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/nasam.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/nasam.png"
+    },
+    {
+      "id": "building:ra2:GAYARD",
+      "gameId": "GAYARD",
+      "version": "ra2",
+      "name": "盟军船厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/gayard.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/gayard.png"
+    },
+    {
+      "id": "building:ra2:NAIRON",
+      "gameId": "NAIRON",
+      "version": "ra2",
+      "name": "铁幕装置",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/nairon.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/nairon.png"
+    },
+    {
+      "id": "building:ra2:NACNST",
+      "gameId": "NACNST",
+      "version": "ra2",
+      "name": "苏军建造厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": null,
+      "exportImage": "images/assets/factions/soviet.png"
+    },
+    {
+      "id": "building:ra2:NADEPT",
+      "gameId": "NADEPT",
+      "version": "ra2",
+      "name": "苏军维修厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/nadept.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/nadept.png"
+    },
+    {
+      "id": "building:ra2:GACSPH",
+      "gameId": "GACSPH",
+      "version": "ra2",
+      "name": "超时空传送仪",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/gacsph.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/gacsph.png"
+    },
+    {
+      "id": "building:ra2:GAWEAT",
+      "gameId": "GAWEAT",
+      "version": "ra2",
+      "name": "天气控制机",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/gaweat.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/gaweat.png"
+    },
+    {
+      "id": "building:ra2:TESLA",
+      "gameId": "TESLA",
+      "version": "ra2",
+      "name": "磁暴线圈",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "radar",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/tesla.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/tesla.png"
+    },
+    {
+      "id": "building:ra2:NAMISL",
+      "gameId": "NAMISL",
+      "version": "ra2",
+      "name": "核弹发射井",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/namisl.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/namisl.png"
+    },
+    {
+      "id": "building:ra2:ATESLA",
+      "gameId": "ATESLA",
+      "version": "ra2",
+      "name": "光棱塔",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "radar",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/atesla.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/atesla.png"
+    },
+    {
+      "id": "building:ra2:NAYARD",
+      "gameId": "NAYARD",
+      "version": "ra2",
+      "name": "苏军船厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/nayard.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/nayard.png"
+    },
+    {
+      "id": "building:ra2:GASPYSAT",
+      "gameId": "GASPYSAT",
+      "version": "ra2",
+      "name": "间谍卫星",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/gaspysat.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/gaspysat.png"
+    },
+    {
+      "id": "building:ra2:GAGAP",
+      "gameId": "GAGAP",
+      "version": "ra2",
+      "name": "裂缝产生器",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/gagap.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/gagap.png"
+    },
+    {
+      "id": "building:ra2:GTGCAN",
+      "gameId": "GTGCAN",
+      "version": "ra2",
+      "name": "巨炮",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "radar",
+      "national": true,
+      "iconPath": "./assets/unit-icons/ra2/buildings/gtgcan.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/gtgcan.png"
+    },
+    {
+      "id": "building:ra2:NANRCT",
+      "gameId": "NANRCT",
+      "version": "ra2",
+      "name": "核子反应炉",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/nanrct.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/nanrct.png"
+    },
+    {
+      "id": "building:ra2:GAPILL",
+      "gameId": "GAPILL",
+      "version": "ra2",
+      "name": "机枪碉堡",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/gapill.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/gapill.png"
+    },
+    {
+      "id": "building:ra2:NAFLAK",
+      "gameId": "NAFLAK",
+      "version": "ra2",
+      "name": "防空炮",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/naflak.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/naflak.png"
+    },
+    {
+      "id": "building:ra2:NACLON",
+      "gameId": "NACLON",
+      "version": "ra2",
+      "name": "复制中心",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/naclon.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/naclon.png"
+    },
+    {
+      "id": "building:ra2:GAOREP",
+      "gameId": "GAOREP",
+      "version": "ra2",
+      "name": "矿石精炼器",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/gaorep.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/gaorep.png"
+    },
+    {
+      "id": "building:ra2:GAAIRC",
+      "gameId": "GAAIRC",
+      "version": "ra2",
+      "name": "空指部",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/ra2/buildings/gaairc.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/gaairc.png"
+    },
+    {
+      "id": "building:ra2:AMRADR",
+      "gameId": "AMRADR",
+      "version": "ra2",
+      "name": "美国空指部",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": true,
+      "iconPath": "./assets/unit-icons/ra2/buildings/amradr.png",
+      "exportImage": "images/assets/unit-icons/ra2/buildings/amradr.png"
+    },
+    {
+      "id": "unit:yr:E1",
+      "gameId": "E1",
+      "version": "yr",
+      "name": "美国大兵",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/e1.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/e1.png"
+    },
+    {
+      "id": "unit:yr:E2",
+      "gameId": "E2",
+      "version": "yr",
+      "name": "动员兵",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/e2.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/e2.png"
+    },
+    {
+      "id": "unit:yr:SHK",
+      "gameId": "SHK",
+      "version": "yr",
+      "name": "磁爆步兵",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "5",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/shk.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/shk.png"
+    },
+    {
+      "id": "unit:yr:ENGINEER",
+      "gameId": "ENGINEER",
+      "version": "yr",
+      "name": "工程师",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/engineer.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/engineer.png"
+    },
+    {
+      "id": "unit:yr:JUMPJET",
+      "gameId": "JUMPJET",
+      "version": "yr",
+      "name": "火箭飞行兵",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry",
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "3",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/jumpjet.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/jumpjet.png"
+    },
+    {
+      "id": "unit:yr:GHOST",
+      "gameId": "GHOST",
+      "version": "yr",
+      "name": "海豹突击队",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/ghost.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/ghost.png"
+    },
+    {
+      "id": "unit:yr:YURI",
+      "gameId": "YURI",
+      "version": "yr",
+      "name": "尤里复制人",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "10",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/yuri.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/yuri.png"
+    },
+    {
+      "id": "unit:yr:IVAN",
+      "gameId": "IVAN",
+      "version": "yr",
+      "name": "疯狂伊文",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "5",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/ivan.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/ivan.png"
+    },
+    {
+      "id": "unit:yr:DESO",
+      "gameId": "DESO",
+      "version": "yr",
+      "name": "辐射工兵",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "8",
+      "countries": [
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/deso.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": true,
+      "exportImage": "images/assets/unit-icons/yr/units/deso.png"
+    },
+    {
+      "id": "unit:yr:DOG",
+      "gameId": "DOG",
+      "version": "yr",
+      "name": "军犬",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/dog.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/dog.png"
+    },
+    {
+      "id": "unit:yr:CLEG",
+      "gameId": "CLEG",
+      "version": "yr",
+      "name": "超时空军团兵",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "10",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/cleg.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/cleg.png"
+    },
+    {
+      "id": "unit:yr:SPY",
+      "gameId": "SPY",
+      "version": "yr",
+      "name": "间谍",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "5",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/spy.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/spy.png"
+    },
+    {
+      "id": "unit:yr:CCOMAND",
+      "gameId": "CCOMAND",
+      "version": "yr",
+      "name": "超时空突击队",
+      "faction": "allied",
+      "factions": [
+        "allied",
+        "soviet",
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "t4",
+      "techStage": "spy",
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance",
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs",
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/ccomand.png",
+      "kind": "unit",
+      "acquisition": "ALLIED",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/ccomand.png"
+    },
+    {
+      "id": "unit:yr:PTROOP",
+      "gameId": "PTROOP",
+      "version": "yr",
+      "name": "心灵突击队",
+      "faction": "allied",
+      "factions": [
+        "allied",
+        "soviet",
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "t4",
+      "techStage": "spy",
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance",
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs",
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/ptroop.png",
+      "kind": "unit",
+      "acquisition": "THIRD",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/ptroop.png"
+    },
+    {
+      "id": "unit:yr:CIVAN",
+      "gameId": "CIVAN",
+      "version": "yr",
+      "name": "超时空伊文",
+      "faction": "allied",
+      "factions": [
+        "allied",
+        "soviet",
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "t4",
+      "techStage": "spy",
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance",
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs",
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/civan.png",
+      "kind": "unit",
+      "acquisition": "SOVIET",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/civan.png"
+    },
+    {
+      "id": "unit:yr:YURIPR",
+      "gameId": "YURIPR",
+      "version": "yr",
+      "name": "尤里 X",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "10",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/yuripr.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/yuripr.png"
+    },
+    {
+      "id": "unit:yr:SNIPE",
+      "gameId": "SNIPE",
+      "version": "yr",
+      "name": "狙击手",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "1",
+      "countries": [
+        "British"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/snipe.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": true,
+      "exportImage": "images/assets/unit-icons/yr/units/snipe.png"
+    },
+    {
+      "id": "unit:yr:TANY",
+      "gameId": "TANY",
+      "version": "yr",
+      "name": "谭雅",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/tany.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/tany.png"
+    },
+    {
+      "id": "unit:yr:FLAKT",
+      "gameId": "FLAKT",
+      "version": "yr",
+      "name": "防空步兵",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "1",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/flakt.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/flakt.png"
+    },
+    {
+      "id": "unit:yr:TERROR",
+      "gameId": "TERROR",
+      "version": "yr",
+      "name": "恐怖分子",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "5",
+      "countries": [
+        "Confederation"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/terror.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": true,
+      "exportImage": "images/assets/unit-icons/yr/units/terror.png"
+    },
+    {
+      "id": "unit:yr:SENGINEER",
+      "gameId": "SENGINEER",
+      "version": "yr",
+      "name": "工程师",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/sengineer.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/sengineer.png"
+    },
+    {
+      "id": "unit:yr:ADOG",
+      "gameId": "ADOG",
+      "version": "yr",
+      "name": "军犬",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/adog.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/adog.png"
+    },
+    {
+      "id": "unit:yr:YENGINEER",
+      "gameId": "YENGINEER",
+      "version": "yr",
+      "name": "工程师",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/yengineer.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/yengineer.png"
+    },
+    {
+      "id": "unit:yr:GGI",
+      "gameId": "GGI",
+      "version": "yr",
+      "name": "重装大兵",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/ggi.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/ggi.png"
+    },
+    {
+      "id": "unit:yr:INIT",
+      "gameId": "INIT",
+      "version": "yr",
+      "name": "尤里新兵",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/init.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/init.png"
+    },
+    {
+      "id": "unit:yr:BORIS",
+      "gameId": "BORIS",
+      "version": "yr",
+      "name": "鲍里斯",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "9",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/boris.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/boris.png"
+    },
+    {
+      "id": "unit:yr:BRUTE",
+      "gameId": "BRUTE",
+      "version": "yr",
+      "name": "狂兽人",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "5",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/brute.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/brute.png"
+    },
+    {
+      "id": "unit:yr:VIRUS",
+      "gameId": "VIRUS",
+      "version": "yr",
+      "name": "病毒狙击手",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "1",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/virus.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/virus.png"
+    },
+    {
+      "id": "unit:yr:AMCV",
+      "gameId": "AMCV",
+      "version": "yr",
+      "name": "盟军基地车",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "10",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/amcv.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/amcv.png"
+    },
+    {
+      "id": "unit:yr:HARV",
+      "gameId": "HARV",
+      "version": "yr",
+      "name": "武装采矿车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/harv.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/harv.png"
+    },
+    {
+      "id": "unit:yr:APOC",
+      "gameId": "APOC",
+      "version": "yr",
+      "name": "天启坦克",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "7",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/apoc.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/apoc.png"
+    },
+    {
+      "id": "unit:yr:HTNK",
+      "gameId": "HTNK",
+      "version": "yr",
+      "name": "犀牛坦克",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/htnk.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/htnk.png"
+    },
+    {
+      "id": "unit:yr:SAPC",
+      "gameId": "SAPC",
+      "version": "yr",
+      "name": "苏军运输船",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/sapc.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/sapc.png"
+    },
+    {
+      "id": "unit:yr:MTNK",
+      "gameId": "MTNK",
+      "version": "yr",
+      "name": "灰熊坦克",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/mtnk.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/mtnk.png"
+    },
+    {
+      "id": "unit:yr:CARRIER",
+      "gameId": "CARRIER",
+      "version": "yr",
+      "name": "航空母舰",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "7",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/carrier.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/carrier.png"
+    },
+    {
+      "id": "unit:yr:V3",
+      "gameId": "V3",
+      "version": "yr",
+      "name": "V3 火箭发射车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "3",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/v3.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/v3.png"
+    },
+    {
+      "id": "unit:yr:ZEP",
+      "gameId": "ZEP",
+      "version": "yr",
+      "name": "基洛夫空艇",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "10",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/zep.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/zep.png"
+    },
+    {
+      "id": "unit:yr:DRON",
+      "gameId": "DRON",
+      "version": "yr",
+      "name": "恐怖机器人",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "4",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/dron.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/dron.png"
+    },
+    {
+      "id": "unit:yr:HTK",
+      "gameId": "HTK",
+      "version": "yr",
+      "name": "防空履带车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "3",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/htk.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/htk.png"
+    },
+    {
+      "id": "unit:yr:DEST",
+      "gameId": "DEST",
+      "version": "yr",
+      "name": "驱逐舰",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "4",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/dest.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/dest.png"
+    },
+    {
+      "id": "unit:yr:SUB",
+      "gameId": "SUB",
+      "version": "yr",
+      "name": "台风潜艇",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/sub.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/sub.png"
+    },
+    {
+      "id": "unit:yr:AEGIS",
+      "gameId": "AEGIS",
+      "version": "yr",
+      "name": "神盾巡洋舰",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "7",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/aegis.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/aegis.png"
+    },
+    {
+      "id": "unit:yr:LCRF",
+      "gameId": "LCRF",
+      "version": "yr",
+      "name": "盟军运输船",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "4",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/lcrf.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/lcrf.png"
+    },
+    {
+      "id": "unit:yr:DRED",
+      "gameId": "DRED",
+      "version": "yr",
+      "name": "无畏级战舰",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "6",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/dred.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/dred.png"
+    },
+    {
+      "id": "unit:yr:SHAD",
+      "gameId": "SHAD",
+      "version": "yr",
+      "name": "夜鹰直升机",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "7",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/shad.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/shad.png"
+    },
+    {
+      "id": "unit:yr:SQD",
+      "gameId": "SQD",
+      "version": "yr",
+      "name": "巨型乌贼",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "9",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/sqd.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/sqd.png"
+    },
+    {
+      "id": "unit:yr:DLPH",
+      "gameId": "DLPH",
+      "version": "yr",
+      "name": "海豚",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "5",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/dlph.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/dlph.png"
+    },
+    {
+      "id": "unit:yr:SMCV",
+      "gameId": "SMCV",
+      "version": "yr",
+      "name": "苏军基地车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "10",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/smcv.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/smcv.png"
+    },
+    {
+      "id": "unit:yr:TNKD",
+      "gameId": "TNKD",
+      "version": "yr",
+      "name": "坦克杀手",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "2",
+      "countries": [
+        "Germans"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/tnkd.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": true,
+      "exportImage": "images/assets/unit-icons/yr/units/tnkd.png"
+    },
+    {
+      "id": "unit:yr:TTNK",
+      "gameId": "TTNK",
+      "version": "yr",
+      "name": "磁能坦克",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "10",
+      "countries": [
+        "Russians"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/ttnk.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": true,
+      "exportImage": "images/assets/unit-icons/yr/units/ttnk.png"
+    },
+    {
+      "id": "unit:yr:LTNK",
+      "gameId": "LTNK",
+      "version": "yr",
+      "name": "狂风坦克",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/ltnk.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/ltnk.png"
+    },
+    {
+      "id": "unit:yr:CMIN",
+      "gameId": "CMIN",
+      "version": "yr",
+      "name": "超时空采矿车",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/cmin.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/cmin.png"
+    },
+    {
+      "id": "unit:yr:SREF",
+      "gameId": "SREF",
+      "version": "yr",
+      "name": "光棱坦克",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "8",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/sref.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/sref.png"
+    },
+    {
+      "id": "unit:yr:HYD",
+      "gameId": "HYD",
+      "version": "yr",
+      "name": "海蝎",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "6",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/hyd.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/hyd.png"
+    },
+    {
+      "id": "unit:yr:MGTK",
+      "gameId": "MGTK",
+      "version": "yr",
+      "name": "幻影坦克",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/mgtk.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/mgtk.png"
+    },
+    {
+      "id": "unit:yr:FV",
+      "gameId": "FV",
+      "version": "yr",
+      "name": "多功能步兵车",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "3",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/fv.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/fv.png"
+    },
+    {
+      "id": "unit:yr:DTRUCK",
+      "gameId": "DTRUCK",
+      "version": "yr",
+      "name": "自爆卡车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "10",
+      "countries": [
+        "Africans"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/dtruck.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": true,
+      "exportImage": "images/assets/unit-icons/yr/units/dtruck.png"
+    },
+    {
+      "id": "unit:yr:YHVR",
+      "gameId": "YHVR",
+      "version": "yr",
+      "name": "尤里运输船",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/yhvr.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/yhvr.png"
+    },
+    {
+      "id": "unit:yr:PCV",
+      "gameId": "PCV",
+      "version": "yr",
+      "name": "尤里基地车",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "10",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/pcv.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/pcv.png"
+    },
+    {
+      "id": "unit:yr:SMIN",
+      "gameId": "SMIN",
+      "version": "yr",
+      "name": "奴隶矿车",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/smin.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/smin.png"
+    },
+    {
+      "id": "unit:yr:YTNK",
+      "gameId": "YTNK",
+      "version": "yr",
+      "name": "盖特机炮坦克",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "4",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/ytnk.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/ytnk.png"
+    },
+    {
+      "id": "unit:yr:BFRT",
+      "gameId": "BFRT",
+      "version": "yr",
+      "name": "战斗要塞",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "10",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/bfrt.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/bfrt.png"
+    },
+    {
+      "id": "unit:yr:TELE",
+      "gameId": "TELE",
+      "version": "yr",
+      "name": "磁电坦克",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "2",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/tele.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/tele.png"
+    },
+    {
+      "id": "unit:yr:CAOS",
+      "gameId": "CAOS",
+      "version": "yr",
+      "name": "混乱机器人",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "4",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/caos.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/caos.png"
+    },
+    {
+      "id": "unit:yr:BSUB",
+      "gameId": "BSUB",
+      "version": "yr",
+      "name": "雷鸣攻击潜艇",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "2",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/bsub.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/bsub.png"
+    },
+    {
+      "id": "unit:yr:SCHP",
+      "gameId": "SCHP",
+      "version": "yr",
+      "name": "武装直升机",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "7",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/schp.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/schp.png"
+    },
+    {
+      "id": "unit:yr:MIND",
+      "gameId": "MIND",
+      "version": "yr",
+      "name": "精神控制车",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "2",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/mind.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/mind.png"
+    },
+    {
+      "id": "unit:yr:DISK",
+      "gameId": "DISK",
+      "version": "yr",
+      "name": "镭射幽浮",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "2",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/disk.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/disk.png"
+    },
+    {
+      "id": "unit:yr:ROBO",
+      "gameId": "ROBO",
+      "version": "yr",
+      "name": "遥控坦克",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/robo.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/robo.png"
+    },
+    {
+      "id": "unit:yr:ORCA",
+      "gameId": "ORCA",
+      "version": "yr",
+      "name": "入侵者战机",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "3",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/orca.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": false,
+      "exportImage": "images/assets/unit-icons/yr/units/orca.png"
+    },
+    {
+      "id": "unit:yr:BEAG",
+      "gameId": "BEAG",
+      "version": "yr",
+      "name": "黑鹰战机",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "3",
+      "countries": [
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/beag.png",
+      "kind": "unit",
+      "acquisition": "",
+      "national": true,
+      "exportImage": "images/assets/unit-icons/yr/units/beag.png"
+    },
+    {
+      "id": "unit:yr:LUNR",
+      "gameId": "LUNR",
+      "version": "yr",
+      "name": "登月火箭员",
+      "kind": "unit",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "air"
+      ],
+      "source": "campaign",
+      "techStage": null,
+      "iconPath": "./assets/unit-icons/yr/units/lunr.png",
+      "sourceIconPath": "./assets/unit-icons/yr/units/lunr.png",
+      "iconFaction": "soviet",
+      "national": false,
+      "airFilterOnly": true,
+      "exportImage": "images/assets/unit-icons/yr/units/lunr.png"
+    },
+    {
+      "id": "building:yr:GAPOWR",
+      "gameId": "GAPOWR",
+      "version": "yr",
+      "name": "发电厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/gapowr.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/gapowr.png"
+    },
+    {
+      "id": "building:yr:GAREFN",
+      "gameId": "GAREFN",
+      "version": "yr",
+      "name": "盟军矿石精炼厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/garefn.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/garefn.png"
+    },
+    {
+      "id": "building:yr:GACNST",
+      "gameId": "GACNST",
+      "version": "yr",
+      "name": "盟军建造厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": null,
+      "exportImage": "images/assets/factions/allied.png"
+    },
+    {
+      "id": "building:yr:GAPILE",
+      "gameId": "GAPILE",
+      "version": "yr",
+      "name": "盟军兵营",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/gapile.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/gapile.png"
+    },
+    {
+      "id": "building:yr:GADEPT",
+      "gameId": "GADEPT",
+      "version": "yr",
+      "name": "盟军维修厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/gadept.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/gadept.png"
+    },
+    {
+      "id": "building:yr:GATECH",
+      "gameId": "GATECH",
+      "version": "yr",
+      "name": "盟军作战实验室",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "radar",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/gatech.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/gatech.png"
+    },
+    {
+      "id": "building:yr:GAWEAP",
+      "gameId": "GAWEAP",
+      "version": "yr",
+      "name": "盟军战车工厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/gaweap.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/gaweap.png"
+    },
+    {
+      "id": "building:yr:NAPOWR",
+      "gameId": "NAPOWR",
+      "version": "yr",
+      "name": "磁能反应炉",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/napowr.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/napowr.png"
+    },
+    {
+      "id": "building:yr:NATECH",
+      "gameId": "NATECH",
+      "version": "yr",
+      "name": "苏军作战实验室",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "radar",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/natech.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/natech.png"
+    },
+    {
+      "id": "building:yr:NAHAND",
+      "gameId": "NAHAND",
+      "version": "yr",
+      "name": "苏军兵营",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/nahand.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/nahand.png"
+    },
+    {
+      "id": "building:yr:GAWALL",
+      "gameId": "GAWALL",
+      "version": "yr",
+      "name": "盟军围墙",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/gawall.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/gawall.png"
+    },
+    {
+      "id": "building:yr:NARADR",
+      "gameId": "NARADR",
+      "version": "yr",
+      "name": "雷达",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/naradr.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/naradr.png"
+    },
+    {
+      "id": "building:yr:NAWEAP",
+      "gameId": "NAWEAP",
+      "version": "yr",
+      "name": "苏军战车工厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/naweap.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/naweap.png"
+    },
+    {
+      "id": "building:yr:NAREFN",
+      "gameId": "NAREFN",
+      "version": "yr",
+      "name": "苏军矿石精炼厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/narefn.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/narefn.png"
+    },
+    {
+      "id": "building:yr:NAWALL",
+      "gameId": "NAWALL",
+      "version": "yr",
+      "name": "苏军围墙",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/nawall.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/nawall.png"
+    },
+    {
+      "id": "building:yr:NAPSIS",
+      "gameId": "NAPSIS",
+      "version": "yr",
+      "name": "心灵感应器",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/napsis.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/napsis.png"
+    },
+    {
+      "id": "building:yr:NALASR",
+      "gameId": "NALASR",
+      "version": "yr",
+      "name": "哨戒炮",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/nalasr.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/nalasr.png"
+    },
+    {
+      "id": "building:yr:NASAM",
+      "gameId": "NASAM",
+      "version": "yr",
+      "name": "爱国者导弹",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/nasam.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/nasam.png"
+    },
+    {
+      "id": "building:yr:GAYARD",
+      "gameId": "GAYARD",
+      "version": "yr",
+      "name": "盟军船厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/gayard.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/gayard.png"
+    },
+    {
+      "id": "building:yr:NAIRON",
+      "gameId": "NAIRON",
+      "version": "yr",
+      "name": "铁幕装置",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/nairon.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/nairon.png"
+    },
+    {
+      "id": "building:yr:NACNST",
+      "gameId": "NACNST",
+      "version": "yr",
+      "name": "苏军建造厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": null,
+      "exportImage": "images/assets/factions/soviet.png"
+    },
+    {
+      "id": "building:yr:NADEPT",
+      "gameId": "NADEPT",
+      "version": "yr",
+      "name": "苏军维修厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/nadept.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/nadept.png"
+    },
+    {
+      "id": "building:yr:GACSPH",
+      "gameId": "GACSPH",
+      "version": "yr",
+      "name": "超时空传送仪",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/gacsph.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/gacsph.png"
+    },
+    {
+      "id": "building:yr:GAWEAT",
+      "gameId": "GAWEAT",
+      "version": "yr",
+      "name": "天气控制机",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/gaweat.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/gaweat.png"
+    },
+    {
+      "id": "building:yr:TESLA",
+      "gameId": "TESLA",
+      "version": "yr",
+      "name": "磁暴线圈",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "radar",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/tesla.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/tesla.png"
+    },
+    {
+      "id": "building:yr:NAMISL",
+      "gameId": "NAMISL",
+      "version": "yr",
+      "name": "核弹发射井",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/namisl.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/namisl.png"
+    },
+    {
+      "id": "building:yr:ATESLA",
+      "gameId": "ATESLA",
+      "version": "yr",
+      "name": "光棱塔",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "radar",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/atesla.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/atesla.png"
+    },
+    {
+      "id": "building:yr:NAYARD",
+      "gameId": "NAYARD",
+      "version": "yr",
+      "name": "苏军船厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/nayard.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/nayard.png"
+    },
+    {
+      "id": "building:yr:GASPYSAT",
+      "gameId": "GASPYSAT",
+      "version": "yr",
+      "name": "间谍卫星",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/gaspysat.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/gaspysat.png"
+    },
+    {
+      "id": "building:yr:GAGAP",
+      "gameId": "GAGAP",
+      "version": "yr",
+      "name": "裂缝产生器",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/gagap.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/gagap.png"
+    },
+    {
+      "id": "building:yr:GTGCAN",
+      "gameId": "GTGCAN",
+      "version": "yr",
+      "name": "巨炮",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "radar",
+      "national": true,
+      "iconPath": "./assets/unit-icons/yr/buildings/gtgcan.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/gtgcan.png"
+    },
+    {
+      "id": "building:yr:NANRCT",
+      "gameId": "NANRCT",
+      "version": "yr",
+      "name": "核子反应炉",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/nanrct.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/nanrct.png"
+    },
+    {
+      "id": "building:yr:GAPILL",
+      "gameId": "GAPILL",
+      "version": "yr",
+      "name": "机枪碉堡",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/gapill.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/gapill.png"
+    },
+    {
+      "id": "building:yr:NAFLAK",
+      "gameId": "NAFLAK",
+      "version": "yr",
+      "name": "防空炮",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/naflak.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/naflak.png"
+    },
+    {
+      "id": "building:yr:NACLON",
+      "gameId": "NACLON",
+      "version": "yr",
+      "name": "复制中心",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/naclon.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/naclon.png"
+    },
+    {
+      "id": "building:yr:GAOREP",
+      "gameId": "GAOREP",
+      "version": "yr",
+      "name": "矿石精炼器",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/gaorep.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/gaorep.png"
+    },
+    {
+      "id": "building:yr:GAAIRC",
+      "gameId": "GAAIRC",
+      "version": "yr",
+      "name": "空指部",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/gaairc.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/gaairc.png"
+    },
+    {
+      "id": "building:yr:AMRADR",
+      "gameId": "AMRADR",
+      "version": "yr",
+      "name": "美国空指部",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": true,
+      "iconPath": "./assets/unit-icons/yr/buildings/amradr.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/amradr.png"
+    },
+    {
+      "id": "building:yr:YACNST",
+      "gameId": "YACNST",
+      "version": "yr",
+      "name": "尤里建造厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/yacnst.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/yacnst.png"
+    },
+    {
+      "id": "building:yr:YAPOWR",
+      "gameId": "YAPOWR",
+      "version": "yr",
+      "name": "生化反应炉",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/yapowr.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/yapowr.png"
+    },
+    {
+      "id": "building:yr:YABRCK",
+      "gameId": "YABRCK",
+      "version": "yr",
+      "name": "尤里兵营",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/yabrck.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/yabrck.png"
+    },
+    {
+      "id": "building:yr:YAWEAP",
+      "gameId": "YAWEAP",
+      "version": "yr",
+      "name": "尤里战车工厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/yaweap.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/yaweap.png"
+    },
+    {
+      "id": "building:yr:YAYARD",
+      "gameId": "YAYARD",
+      "version": "yr",
+      "name": "尤里船厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/yayard.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/yayard.png"
+    },
+    {
+      "id": "building:yr:YATECH",
+      "gameId": "YATECH",
+      "version": "yr",
+      "name": "尤里作战实验室",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "radar",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/yatech.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/yatech.png"
+    },
+    {
+      "id": "building:yr:GAFWLL",
+      "gameId": "GAFWLL",
+      "version": "yr",
+      "name": "尤里围墙",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/gafwll.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/gafwll.png"
+    },
+    {
+      "id": "building:yr:YAGGUN",
+      "gameId": "YAGGUN",
+      "version": "yr",
+      "name": "盖特机炮",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/yaggun.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/yaggun.png"
+    },
+    {
+      "id": "building:yr:YAPSYT",
+      "gameId": "YAPSYT",
+      "version": "yr",
+      "name": "心灵控制塔",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "radar",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/yapsyt.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/yapsyt.png"
+    },
+    {
+      "id": "building:yr:NAINDP",
+      "gameId": "NAINDP",
+      "version": "yr",
+      "name": "工业工厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/naindp.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/naindp.png"
+    },
+    {
+      "id": "building:yr:YAGRND",
+      "gameId": "YAGRND",
+      "version": "yr",
+      "name": "部队回收厂",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/yagrnd.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/yagrnd.png"
+    },
+    {
+      "id": "building:yr:YAGNTC",
+      "gameId": "YAGNTC",
+      "version": "yr",
+      "name": "基因突变器",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/yagntc.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/yagntc.png"
+    },
+    {
+      "id": "building:yr:YAPPET",
+      "gameId": "YAPPET",
+      "version": "yr",
+      "name": "心灵控制器",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "lab",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/yappet.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/yappet.png"
+    },
+    {
+      "id": "building:yr:NATBNK",
+      "gameId": "NATBNK",
+      "version": "yr",
+      "name": "坦克碉堡",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/natbnk.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/natbnk.png"
+    },
+    {
+      "id": "building:yr:GAROBO",
+      "gameId": "GAROBO",
+      "version": "yr",
+      "name": "遥控坦克控制中心",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/garobo.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/garobo.png"
+    },
+    {
+      "id": "building:yr:YAREFN",
+      "gameId": "YAREFN",
+      "version": "yr",
+      "name": "奴隶矿场",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "building"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/yarefn.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/yarefn.png"
+    },
+    {
+      "id": "building:yr:NABNKR",
+      "gameId": "NABNKR",
+      "version": "yr",
+      "name": "战斗碉堡",
+      "kind": "building",
+      "rankingPool": "regular",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "defense"
+      ],
+      "source": null,
+      "techStage": "basic",
+      "national": false,
+      "iconPath": "./assets/unit-icons/yr/buildings/nabnkr.png",
+      "exportImage": "images/assets/unit-icons/yr/buildings/nabnkr.png"
+    }
+  ],
+  "images": [
+    {
+      "source": "assets/factions/allied.png",
+      "path": "images/assets/factions/allied.png",
+      "bytes": 850,
+      "sha256": "820176e5857a6df1253c6f2ca70dc4343bb73e7b8176c7f1c731ffac24eb311d",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "source": "assets/factions/neutral.png",
+      "path": "images/assets/factions/neutral.png",
+      "bytes": 1227,
+      "sha256": "814731ff2fa43769cf76cc258ad9c4c9dd78427330c851c3b37b2667f41c14ef",
+      "width": 33,
+      "height": 16
+    },
+    {
+      "source": "assets/factions/soviet.png",
+      "path": "images/assets/factions/soviet.png",
+      "bytes": 871,
+      "sha256": "4f3c5426d46fd972f40cd54c901fe6006095d0c1b9eb50dedcbeb81419bfa253",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "source": "assets/factions/yuri.png",
+      "path": "images/assets/factions/yuri.png",
+      "bytes": 1219,
+      "sha256": "e5a972e801f0f787281042a3bf05dc931ca8c26b2f7163571beaa3269b3a2d4f",
+      "width": 33,
+      "height": 16
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/amradr.png",
+      "path": "images/assets/unit-icons/ra2/buildings/amradr.png",
+      "bytes": 4436,
+      "sha256": "4f45f50dd531d2002884a8235a1056e79410dcc4a043e8cdbfd56f440d467bc3",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/atesla.png",
+      "path": "images/assets/unit-icons/ra2/buildings/atesla.png",
+      "bytes": 3932,
+      "sha256": "ddb65d0770241f7deea5e55b0bf6d68fc1fe81f17a14aa8f0e1392715ab82c5b",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/gaairc.png",
+      "path": "images/assets/unit-icons/ra2/buildings/gaairc.png",
+      "bytes": 4436,
+      "sha256": "4f45f50dd531d2002884a8235a1056e79410dcc4a043e8cdbfd56f440d467bc3",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/gacsph.png",
+      "path": "images/assets/unit-icons/ra2/buildings/gacsph.png",
+      "bytes": 5828,
+      "sha256": "7d3daf552d6dd1f81db6f69816464878f4dd68c7671246cc77446f77e4a070c8",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/gadept.png",
+      "path": "images/assets/unit-icons/ra2/buildings/gadept.png",
+      "bytes": 3773,
+      "sha256": "2c9eea88938bfdeda492ff768ef55491e2a80ba39861cd17620ec0d6366f817c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/gagap.png",
+      "path": "images/assets/unit-icons/ra2/buildings/gagap.png",
+      "bytes": 3683,
+      "sha256": "ddabde4d69d35ec4e3d499de26db51f9c74b11e6c6b4786b6ba92d2a41304f85",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/gaorep.png",
+      "path": "images/assets/unit-icons/ra2/buildings/gaorep.png",
+      "bytes": 3753,
+      "sha256": "cd447eaaab4ce41271297538f038748ca37cbab94bc7b900859445e4838eac7d",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/gapile.png",
+      "path": "images/assets/unit-icons/ra2/buildings/gapile.png",
+      "bytes": 4919,
+      "sha256": "cd7f886ee27bcb2e3b3896bdf43d2016fa5ebef922cb2d1b97c6a6a2b75977dd",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/gapill.png",
+      "path": "images/assets/unit-icons/ra2/buildings/gapill.png",
+      "bytes": 4023,
+      "sha256": "07f8c57c457076382e947ab6cc68916455b1d55ad964063c504d89a3fcf870ea",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/gapowr.png",
+      "path": "images/assets/unit-icons/ra2/buildings/gapowr.png",
+      "bytes": 5137,
+      "sha256": "3cbbe9254d515f2b62ed8999de50e57e431c04055f8ec250479326b8295e5616",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/garefn.png",
+      "path": "images/assets/unit-icons/ra2/buildings/garefn.png",
+      "bytes": 5933,
+      "sha256": "507f971039add67568997d88aa76176440b3762e43632823793b83af4495f1a5",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/gaspysat.png",
+      "path": "images/assets/unit-icons/ra2/buildings/gaspysat.png",
+      "bytes": 4373,
+      "sha256": "00c98066af728d6c0d900d352c2b589ac61dc3bd37777966c1e2a57787e8d122",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/gatech.png",
+      "path": "images/assets/unit-icons/ra2/buildings/gatech.png",
+      "bytes": 4239,
+      "sha256": "005beab0bb630515be4d53b6d24f37338ecc9e05f7d193afa74ac1c9773430be",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/gawall.png",
+      "path": "images/assets/unit-icons/ra2/buildings/gawall.png",
+      "bytes": 5316,
+      "sha256": "a003b17ed2f3f0d02248e8dbc103107fa9866c68f0e3432c395dea03cdc1fd1e",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/gaweap.png",
+      "path": "images/assets/unit-icons/ra2/buildings/gaweap.png",
+      "bytes": 6019,
+      "sha256": "43740850aca56ea79cda7c4d68c321a9f5a9fb368629d53d9b9038539fd9afdf",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/gaweat.png",
+      "path": "images/assets/unit-icons/ra2/buildings/gaweat.png",
+      "bytes": 4575,
+      "sha256": "9bd8fd4343225b544950e2f2331c8e68f7239e9882659423d5e45a8a962ed465",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/gayard.png",
+      "path": "images/assets/unit-icons/ra2/buildings/gayard.png",
+      "bytes": 4195,
+      "sha256": "fe21b0fb25903baae6938d406826d74a6a0d3782a4418f7ade7e0116e5469e43",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/gtgcan.png",
+      "path": "images/assets/unit-icons/ra2/buildings/gtgcan.png",
+      "bytes": 4090,
+      "sha256": "e3bd7226aead594a72deb74c13b615d0b3186109b84993f40cee530924fd99e2",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/naclon.png",
+      "path": "images/assets/unit-icons/ra2/buildings/naclon.png",
+      "bytes": 5493,
+      "sha256": "7b719f1118ddeaa94aa0726cd5e627c9752f5985634d6c36b075a4e02d10c809",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/nadept.png",
+      "path": "images/assets/unit-icons/ra2/buildings/nadept.png",
+      "bytes": 4894,
+      "sha256": "60287a7df2ffc0b17aeab15bfdb4d827b14e989d12cce9b2a63d1c7b9e8752a7",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/naflak.png",
+      "path": "images/assets/unit-icons/ra2/buildings/naflak.png",
+      "bytes": 4686,
+      "sha256": "6edde550c85fcc0c6d51aa0e841d88b750992ad348d3270c166af6647635a4fb",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/nahand.png",
+      "path": "images/assets/unit-icons/ra2/buildings/nahand.png",
+      "bytes": 4385,
+      "sha256": "184b2d3f0c8797d831df2f3fb74f9cf0f455cb730a754b1d6c92f0e3dddd1b36",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/nairon.png",
+      "path": "images/assets/unit-icons/ra2/buildings/nairon.png",
+      "bytes": 4816,
+      "sha256": "4d27cc69e704e6b6b509090a53af08d5b741a2965469b1069786edf03bb31cb5",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/nalasr.png",
+      "path": "images/assets/unit-icons/ra2/buildings/nalasr.png",
+      "bytes": 4405,
+      "sha256": "3208e324fd664a5bea065d52a052ce39c6cfa6fdc2acfc5232f55ded095a3763",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/namisl.png",
+      "path": "images/assets/unit-icons/ra2/buildings/namisl.png",
+      "bytes": 3903,
+      "sha256": "8afd763b9a60e74d53ce490edaad19ce80c4c4c50a624acf4ff628da1b348a4e",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/nanrct.png",
+      "path": "images/assets/unit-icons/ra2/buildings/nanrct.png",
+      "bytes": 4882,
+      "sha256": "a7211648e767cc560582c368c50f387e294c89e465652ed67c3d8b47e340d591",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/napowr.png",
+      "path": "images/assets/unit-icons/ra2/buildings/napowr.png",
+      "bytes": 4316,
+      "sha256": "241e8e321efc05e668a8902bfa5227f952250e80b818e39a1bba0995cdfa0e8d",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/napsis.png",
+      "path": "images/assets/unit-icons/ra2/buildings/napsis.png",
+      "bytes": 4978,
+      "sha256": "b81b09533ae0b1816d8ad59ff9098f2eb48deb6a20285d3cd2cc2c11b2f40fc9",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/naradr.png",
+      "path": "images/assets/unit-icons/ra2/buildings/naradr.png",
+      "bytes": 4512,
+      "sha256": "b84ac35c37e0e730d9c85b5058f93f792f52bded8854d992bbda9277a01a009f",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/narefn.png",
+      "path": "images/assets/unit-icons/ra2/buildings/narefn.png",
+      "bytes": 4639,
+      "sha256": "bdb234930e65b92bdb353b51b8f6614c1d0a6826261a68d3548e92fc3c4f11b8",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/nasam.png",
+      "path": "images/assets/unit-icons/ra2/buildings/nasam.png",
+      "bytes": 4974,
+      "sha256": "be784a8f1c2c59be85540a86473220bba48b6b5725785c299ba03b30432d1fa8",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/natech.png",
+      "path": "images/assets/unit-icons/ra2/buildings/natech.png",
+      "bytes": 3817,
+      "sha256": "f8e7f099343a5e3cf2eb724da543ac316ce2e2c41afb8b7dc867b8d711ba5cef",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/nawall.png",
+      "path": "images/assets/unit-icons/ra2/buildings/nawall.png",
+      "bytes": 4802,
+      "sha256": "f58cbc2f36696d1ac3571ab9c5de7ddb5e1690ca0c8204adc9fdbd0d4bddd7fa",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/naweap.png",
+      "path": "images/assets/unit-icons/ra2/buildings/naweap.png",
+      "bytes": 4451,
+      "sha256": "9410f79dc3093f444a000c7392b59fb538fb4ddfaa2bcb70ba08267e7fe57768",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/nayard.png",
+      "path": "images/assets/unit-icons/ra2/buildings/nayard.png",
+      "bytes": 4560,
+      "sha256": "c8dad6ef0bbb43bb081943fb32f77d0792a26c4be577857fd3d60853733941c8",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/buildings/tesla.png",
+      "path": "images/assets/unit-icons/ra2/buildings/tesla.png",
+      "bytes": 4131,
+      "sha256": "d7c29389699dd0d4a1582c254cfef5f350323d6f1f142d72e3973ea5968cfedd",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/adog.png",
+      "path": "images/assets/unit-icons/ra2/units/adog.png",
+      "bytes": 4224,
+      "sha256": "4d0a85c80ed4dca1bc270034267e560e89412e6377e0a39bd57a180029822a5c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/aegis.png",
+      "path": "images/assets/unit-icons/ra2/units/aegis.png",
+      "bytes": 4144,
+      "sha256": "0d659ba5cdc7f7f93f65329168c92e1d5352efd05dd1b6ae43098e2ecb9f98b7",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/amcv.png",
+      "path": "images/assets/unit-icons/ra2/units/amcv.png",
+      "bytes": 4933,
+      "sha256": "2c01e204a585677f9ad9c4fc4db335e22999855dc90d5117ca8b1d23db25624c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/apoc.png",
+      "path": "images/assets/unit-icons/ra2/units/apoc.png",
+      "bytes": 4652,
+      "sha256": "b1094b5736d9e2721ebcc9f4f6fd5eb07d1a380a2d2ec20ae2a6a1f046eaf096",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/beag.png",
+      "path": "images/assets/unit-icons/ra2/units/beag.png",
+      "bytes": 2763,
+      "sha256": "cc47dcb03940f2a798ab74a9ab1113f6815ed3c1b7ef39c7bd016ed258d1ff0c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/carrier.png",
+      "path": "images/assets/unit-icons/ra2/units/carrier.png",
+      "bytes": 4654,
+      "sha256": "fe3391dbca1e8824a130a4efc749bc3c286b7b16d848deb43e10945d7bf998d3",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/ccomand.png",
+      "path": "images/assets/unit-icons/ra2/units/ccomand.png",
+      "bytes": 5143,
+      "sha256": "6fddf973ee483fc38cd1efc6cd757b9fb84ed1aa4a01512da639219aab8be473",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/civan.png",
+      "path": "images/assets/unit-icons/ra2/units/civan.png",
+      "bytes": 5353,
+      "sha256": "7c816707954aafbae42e09e4f2c6c1801f7daba8c8cd1d294ef7aca11efd98f8",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/cleg.png",
+      "path": "images/assets/unit-icons/ra2/units/cleg.png",
+      "bytes": 4636,
+      "sha256": "b21c0865b2c06c3230916b56db3314437831deecbcc484ac92fa46837e3f0783",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/cmin.png",
+      "path": "images/assets/unit-icons/ra2/units/cmin.png",
+      "bytes": 5158,
+      "sha256": "2eba19fc47cf332eb980e6833086fe65597b6aea98da4f25366f27d20f6eef53",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/deso.png",
+      "path": "images/assets/unit-icons/ra2/units/deso.png",
+      "bytes": 4794,
+      "sha256": "3994b45e2beabf43955f0d937f65cd6ec2b9533f7e914a55bc9db5cd4d87fe76",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/dest.png",
+      "path": "images/assets/unit-icons/ra2/units/dest.png",
+      "bytes": 5035,
+      "sha256": "09b1b925a0e83b5bdf784d86621f6e4ac0b0c9665024835ccb84b28ecc9319e4",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/dlph.png",
+      "path": "images/assets/unit-icons/ra2/units/dlph.png",
+      "bytes": 4058,
+      "sha256": "6c6b0a5a7cf33c4681c43fb3f100cf588e3f9037a64fdb0ebb40c55bbf022f1c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/dog.png",
+      "path": "images/assets/unit-icons/ra2/units/dog.png",
+      "bytes": 5286,
+      "sha256": "99a6eb1e9b13f243570320aadc3b9568ed87bf8d884ab710bae2ba7e275466ec",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/dred.png",
+      "path": "images/assets/unit-icons/ra2/units/dred.png",
+      "bytes": 4640,
+      "sha256": "df2f2bd5c4a1c33f4ce1d17178388701ee5c5d9ff2997f2d68a5a7e63f9f750c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/dron.png",
+      "path": "images/assets/unit-icons/ra2/units/dron.png",
+      "bytes": 5795,
+      "sha256": "ec894149f1fd538bd2ad6fb25d3c4390e3d565853e7d8fe22dcb9d27a42d8662",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/dtruck.png",
+      "path": "images/assets/unit-icons/ra2/units/dtruck.png",
+      "bytes": 4650,
+      "sha256": "540fcb1ff8d835e4959480cc0d21b2a38281d7ed08885e8f2f8618003d4e3fb2",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/e1.png",
+      "path": "images/assets/unit-icons/ra2/units/e1.png",
+      "bytes": 4708,
+      "sha256": "ed91a12e1965baa15c078129fb346cd3de0bca17d8c9d7d9c36b7a6786ed7d21",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/e2.png",
+      "path": "images/assets/unit-icons/ra2/units/e2.png",
+      "bytes": 4663,
+      "sha256": "82f150d407ec468933c80bf106617389fabb03772df8f4fdf64842cd8fe2b255",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/engineer.png",
+      "path": "images/assets/unit-icons/ra2/units/engineer.png",
+      "bytes": 6204,
+      "sha256": "65d323218ddf7ea9606798591d7b9fe7fba479a5f3fee443d2e4a2c7c18cfe32",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/flakt.png",
+      "path": "images/assets/unit-icons/ra2/units/flakt.png",
+      "bytes": 4329,
+      "sha256": "4a02939d64ce340202e626bc6a5dd73aa6118216126807a91d19b00019346a25",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/fv.png",
+      "path": "images/assets/unit-icons/ra2/units/fv.png",
+      "bytes": 4673,
+      "sha256": "3a20e9c50f3b205308fcaaf0af5b5051397022e7c15700998773b4302b3035ab",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/harv.png",
+      "path": "images/assets/unit-icons/ra2/units/harv.png",
+      "bytes": 5212,
+      "sha256": "fe429c2205df94b5583f515d6d6a491ded4cda4fe21182d2f803262c7bbe8cdc",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/htk.png",
+      "path": "images/assets/unit-icons/ra2/units/htk.png",
+      "bytes": 4426,
+      "sha256": "09e20b59e9fc00f634011ad2f6a3aae69b122759874c5137684e3859915b5f3c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/htnk.png",
+      "path": "images/assets/unit-icons/ra2/units/htnk.png",
+      "bytes": 3879,
+      "sha256": "417a6766dcc2d1ec90a48f10f148a4c61e5c5561ba45db01d5f38b966bc30103",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/hyd.png",
+      "path": "images/assets/unit-icons/ra2/units/hyd.png",
+      "bytes": 4614,
+      "sha256": "3d3ee5629bec1394d9d2efa7e0991dd26bdf94811351438cf7a5ef021776731d",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/ivan.png",
+      "path": "images/assets/unit-icons/ra2/units/ivan.png",
+      "bytes": 4361,
+      "sha256": "34048b9e19313cf35b195df56b890e5b025e7a9e3e2b1f2b31ba6c16cfe6bb9c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/jumpjet.png",
+      "path": "images/assets/unit-icons/ra2/units/jumpjet.png",
+      "bytes": 4159,
+      "sha256": "962b9ee923156972a74bae862f33fd4fcbafd67d7629973ea8e4afcf91e947d7",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/lcrf.png",
+      "path": "images/assets/unit-icons/ra2/units/lcrf.png",
+      "bytes": 5079,
+      "sha256": "6fc779ef00940fd8dd161ffe318b116f86ecb72a0b0c7f49c50364173079294c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/mgtk.png",
+      "path": "images/assets/unit-icons/ra2/units/mgtk.png",
+      "bytes": 5153,
+      "sha256": "0e1e51485a14336cd21fe9b907944191137b11045eecadd5b68b97b8d1283d22",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/mtnk.png",
+      "path": "images/assets/unit-icons/ra2/units/mtnk.png",
+      "bytes": 4411,
+      "sha256": "4b110c6a2369d4950575015db71ff354d571087dce774ad52bab20220ec8fd4d",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/orca.png",
+      "path": "images/assets/unit-icons/ra2/units/orca.png",
+      "bytes": 4605,
+      "sha256": "56150fa2ee64993ff2d5f0664ad244c5fc335d5638f154b853865aa11c568beb",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/ptroop.png",
+      "path": "images/assets/unit-icons/ra2/units/ptroop.png",
+      "bytes": 4267,
+      "sha256": "ae1c0d02bcd1e43c07ff681964bfb6efea5f87366312d63d59dceb1512277831",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/sapc.png",
+      "path": "images/assets/unit-icons/ra2/units/sapc.png",
+      "bytes": 4919,
+      "sha256": "e69982a950043344369bcc6e278eadf8e8201733c8a73d65709ff4cc4013fa6c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/sengineer.png",
+      "path": "images/assets/unit-icons/ra2/units/sengineer.png",
+      "bytes": 6204,
+      "sha256": "65d323218ddf7ea9606798591d7b9fe7fba479a5f3fee443d2e4a2c7c18cfe32",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/shad.png",
+      "path": "images/assets/unit-icons/ra2/units/shad.png",
+      "bytes": 4655,
+      "sha256": "d44533a95eeb62d57f4e7eac6159c695895a37da676af751d277b49a2bbb49ee",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/shk.png",
+      "path": "images/assets/unit-icons/ra2/units/shk.png",
+      "bytes": 5470,
+      "sha256": "1b33022fd276d2aeaafbd2d1c16e8af873c15c3cd6c95ca9fcc3a5a87913ae76",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/smcv.png",
+      "path": "images/assets/unit-icons/ra2/units/smcv.png",
+      "bytes": 4830,
+      "sha256": "572e6b734aca3ee460d8732d7c53c72bf2bfde73ccc01f0685fb7b4ff87a9eea",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/snipe.png",
+      "path": "images/assets/unit-icons/ra2/units/snipe.png",
+      "bytes": 4283,
+      "sha256": "f23c499ad4724865cbb7cff845bcfb0ac3a32e0c9afad7017e4cb5db541c1493",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/spy.png",
+      "path": "images/assets/unit-icons/ra2/units/spy.png",
+      "bytes": 4544,
+      "sha256": "638ef8af7d0f4233494464218f7b27b3418b3b0ed5f51683e5bd10ae972116d7",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/sqd.png",
+      "path": "images/assets/unit-icons/ra2/units/sqd.png",
+      "bytes": 3969,
+      "sha256": "9c98b34d0b0c66b50d5557c7cd5adf097f9c48e5a8c806357016b6a731cae043",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/sref.png",
+      "path": "images/assets/unit-icons/ra2/units/sref.png",
+      "bytes": 4912,
+      "sha256": "d6e35aea65bc1705f0f7366948717b3ed69c0e519e7214cbfd1df0dc62b9abc3",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/sub.png",
+      "path": "images/assets/unit-icons/ra2/units/sub.png",
+      "bytes": 5146,
+      "sha256": "7c33a05cd5a0691d33450d2a6b1493aca10cc3cfe4a3b30b07e7a5e1f4910bcf",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/tany.png",
+      "path": "images/assets/unit-icons/ra2/units/tany.png",
+      "bytes": 5092,
+      "sha256": "613243ed86ea08d206accc266fbed9c28e5a1859c3af424265590697e54b6666",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/terror.png",
+      "path": "images/assets/unit-icons/ra2/units/terror.png",
+      "bytes": 4270,
+      "sha256": "1c04c2bd24fcadf0d8e65ebc3ade6b79d13c955622395f6e172e7e058c0c2ebf",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/tnkd.png",
+      "path": "images/assets/unit-icons/ra2/units/tnkd.png",
+      "bytes": 4812,
+      "sha256": "410d8f9f9fe24298fea77fdfc4dac41337b271da48e7b8de4ad51754676deca8",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/ttnk.png",
+      "path": "images/assets/unit-icons/ra2/units/ttnk.png",
+      "bytes": 4719,
+      "sha256": "130f87f0f886f977b43b7d6fd08b6bbe19fc3a82128775504e39c06f34ef7562",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/v3.png",
+      "path": "images/assets/unit-icons/ra2/units/v3.png",
+      "bytes": 4293,
+      "sha256": "78caa3ad05d0112a0376c7d6b5d1c319bae136bae203f95d15de51e58770e47f",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/yuri.png",
+      "path": "images/assets/unit-icons/ra2/units/yuri.png",
+      "bytes": 3355,
+      "sha256": "77864ae2570dadd5caf8a167e4b0b4393aa1e99d09a7542e3c0120712390a2db",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/yuripr.png",
+      "path": "images/assets/unit-icons/ra2/units/yuripr.png",
+      "bytes": 3515,
+      "sha256": "be5df5ab6f327bf63893593f98569f8acd4269bc05488673e6725827d89fad48",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/ra2/units/zep.png",
+      "path": "images/assets/unit-icons/ra2/units/zep.png",
+      "bytes": 4470,
+      "sha256": "f22400831ed4112d27a7f36123372c2525de2a65356078bbf2f4097409758487",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/amradr.png",
+      "path": "images/assets/unit-icons/yr/buildings/amradr.png",
+      "bytes": 4436,
+      "sha256": "4f45f50dd531d2002884a8235a1056e79410dcc4a043e8cdbfd56f440d467bc3",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/atesla.png",
+      "path": "images/assets/unit-icons/yr/buildings/atesla.png",
+      "bytes": 3932,
+      "sha256": "ddb65d0770241f7deea5e55b0bf6d68fc1fe81f17a14aa8f0e1392715ab82c5b",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/gaairc.png",
+      "path": "images/assets/unit-icons/yr/buildings/gaairc.png",
+      "bytes": 4436,
+      "sha256": "4f45f50dd531d2002884a8235a1056e79410dcc4a043e8cdbfd56f440d467bc3",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/gacsph.png",
+      "path": "images/assets/unit-icons/yr/buildings/gacsph.png",
+      "bytes": 5828,
+      "sha256": "7d3daf552d6dd1f81db6f69816464878f4dd68c7671246cc77446f77e4a070c8",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/gadept.png",
+      "path": "images/assets/unit-icons/yr/buildings/gadept.png",
+      "bytes": 3773,
+      "sha256": "2c9eea88938bfdeda492ff768ef55491e2a80ba39861cd17620ec0d6366f817c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/gafwll.png",
+      "path": "images/assets/unit-icons/yr/buildings/gafwll.png",
+      "bytes": 4373,
+      "sha256": "361a9e7440e4f15f94f80158fcbc1808a5710482450a4e56c4cdbd605a031355",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/gagap.png",
+      "path": "images/assets/unit-icons/yr/buildings/gagap.png",
+      "bytes": 3683,
+      "sha256": "ddabde4d69d35ec4e3d499de26db51f9c74b11e6c6b4786b6ba92d2a41304f85",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/gaorep.png",
+      "path": "images/assets/unit-icons/yr/buildings/gaorep.png",
+      "bytes": 3753,
+      "sha256": "cd447eaaab4ce41271297538f038748ca37cbab94bc7b900859445e4838eac7d",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/gapile.png",
+      "path": "images/assets/unit-icons/yr/buildings/gapile.png",
+      "bytes": 4919,
+      "sha256": "cd7f886ee27bcb2e3b3896bdf43d2016fa5ebef922cb2d1b97c6a6a2b75977dd",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/gapill.png",
+      "path": "images/assets/unit-icons/yr/buildings/gapill.png",
+      "bytes": 4023,
+      "sha256": "07f8c57c457076382e947ab6cc68916455b1d55ad964063c504d89a3fcf870ea",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/gapowr.png",
+      "path": "images/assets/unit-icons/yr/buildings/gapowr.png",
+      "bytes": 5137,
+      "sha256": "3cbbe9254d515f2b62ed8999de50e57e431c04055f8ec250479326b8295e5616",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/garefn.png",
+      "path": "images/assets/unit-icons/yr/buildings/garefn.png",
+      "bytes": 5933,
+      "sha256": "507f971039add67568997d88aa76176440b3762e43632823793b83af4495f1a5",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/garobo.png",
+      "path": "images/assets/unit-icons/yr/buildings/garobo.png",
+      "bytes": 5369,
+      "sha256": "996740262517fcffafbdedb1408cbb97a17a003fabd4ccfb575039a7d5f92d06",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/gaspysat.png",
+      "path": "images/assets/unit-icons/yr/buildings/gaspysat.png",
+      "bytes": 4373,
+      "sha256": "00c98066af728d6c0d900d352c2b589ac61dc3bd37777966c1e2a57787e8d122",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/gatech.png",
+      "path": "images/assets/unit-icons/yr/buildings/gatech.png",
+      "bytes": 4239,
+      "sha256": "005beab0bb630515be4d53b6d24f37338ecc9e05f7d193afa74ac1c9773430be",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/gawall.png",
+      "path": "images/assets/unit-icons/yr/buildings/gawall.png",
+      "bytes": 5316,
+      "sha256": "a003b17ed2f3f0d02248e8dbc103107fa9866c68f0e3432c395dea03cdc1fd1e",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/gaweap.png",
+      "path": "images/assets/unit-icons/yr/buildings/gaweap.png",
+      "bytes": 6019,
+      "sha256": "43740850aca56ea79cda7c4d68c321a9f5a9fb368629d53d9b9038539fd9afdf",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/gaweat.png",
+      "path": "images/assets/unit-icons/yr/buildings/gaweat.png",
+      "bytes": 4575,
+      "sha256": "9bd8fd4343225b544950e2f2331c8e68f7239e9882659423d5e45a8a962ed465",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/gayard.png",
+      "path": "images/assets/unit-icons/yr/buildings/gayard.png",
+      "bytes": 4195,
+      "sha256": "fe21b0fb25903baae6938d406826d74a6a0d3782a4418f7ade7e0116e5469e43",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/gtgcan.png",
+      "path": "images/assets/unit-icons/yr/buildings/gtgcan.png",
+      "bytes": 4090,
+      "sha256": "e3bd7226aead594a72deb74c13b615d0b3186109b84993f40cee530924fd99e2",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/nabnkr.png",
+      "path": "images/assets/unit-icons/yr/buildings/nabnkr.png",
+      "bytes": 4901,
+      "sha256": "1e121a2c8e800db87e7ac04e029a5c853a9b0f96ad5be470bd3232aaa02fab27",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/naclon.png",
+      "path": "images/assets/unit-icons/yr/buildings/naclon.png",
+      "bytes": 4236,
+      "sha256": "8fb7ae5fed8761d83746ecd984ba7d4b5ef2277cfb967d5c29587ff695093f08",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/nadept.png",
+      "path": "images/assets/unit-icons/yr/buildings/nadept.png",
+      "bytes": 4894,
+      "sha256": "60287a7df2ffc0b17aeab15bfdb4d827b14e989d12cce9b2a63d1c7b9e8752a7",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/naflak.png",
+      "path": "images/assets/unit-icons/yr/buildings/naflak.png",
+      "bytes": 4686,
+      "sha256": "6edde550c85fcc0c6d51aa0e841d88b750992ad348d3270c166af6647635a4fb",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/nahand.png",
+      "path": "images/assets/unit-icons/yr/buildings/nahand.png",
+      "bytes": 4385,
+      "sha256": "184b2d3f0c8797d831df2f3fb74f9cf0f455cb730a754b1d6c92f0e3dddd1b36",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/naindp.png",
+      "path": "images/assets/unit-icons/yr/buildings/naindp.png",
+      "bytes": 4769,
+      "sha256": "80be83da53c4a2ce7e96b8e97c5de90988fd0315b4950cf18f71a18f6db48f07",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/nairon.png",
+      "path": "images/assets/unit-icons/yr/buildings/nairon.png",
+      "bytes": 4816,
+      "sha256": "4d27cc69e704e6b6b509090a53af08d5b741a2965469b1069786edf03bb31cb5",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/nalasr.png",
+      "path": "images/assets/unit-icons/yr/buildings/nalasr.png",
+      "bytes": 4405,
+      "sha256": "3208e324fd664a5bea065d52a052ce39c6cfa6fdc2acfc5232f55ded095a3763",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/namisl.png",
+      "path": "images/assets/unit-icons/yr/buildings/namisl.png",
+      "bytes": 3903,
+      "sha256": "8afd763b9a60e74d53ce490edaad19ce80c4c4c50a624acf4ff628da1b348a4e",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/nanrct.png",
+      "path": "images/assets/unit-icons/yr/buildings/nanrct.png",
+      "bytes": 4882,
+      "sha256": "a7211648e767cc560582c368c50f387e294c89e465652ed67c3d8b47e340d591",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/napowr.png",
+      "path": "images/assets/unit-icons/yr/buildings/napowr.png",
+      "bytes": 4316,
+      "sha256": "241e8e321efc05e668a8902bfa5227f952250e80b818e39a1bba0995cdfa0e8d",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/napsis.png",
+      "path": "images/assets/unit-icons/yr/buildings/napsis.png",
+      "bytes": 4675,
+      "sha256": "8b068792133147a7600474a7b14127e8757d7d4ce273a64e64a0903d9301dc4b",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/naradr.png",
+      "path": "images/assets/unit-icons/yr/buildings/naradr.png",
+      "bytes": 4512,
+      "sha256": "b84ac35c37e0e730d9c85b5058f93f792f52bded8854d992bbda9277a01a009f",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/narefn.png",
+      "path": "images/assets/unit-icons/yr/buildings/narefn.png",
+      "bytes": 4639,
+      "sha256": "bdb234930e65b92bdb353b51b8f6614c1d0a6826261a68d3548e92fc3c4f11b8",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/nasam.png",
+      "path": "images/assets/unit-icons/yr/buildings/nasam.png",
+      "bytes": 4974,
+      "sha256": "be784a8f1c2c59be85540a86473220bba48b6b5725785c299ba03b30432d1fa8",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/natbnk.png",
+      "path": "images/assets/unit-icons/yr/buildings/natbnk.png",
+      "bytes": 5667,
+      "sha256": "f7b472260487d313ca8ca2b70b38349e654ebd50a2227b726263fe0473270be2",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/natech.png",
+      "path": "images/assets/unit-icons/yr/buildings/natech.png",
+      "bytes": 3817,
+      "sha256": "f8e7f099343a5e3cf2eb724da543ac316ce2e2c41afb8b7dc867b8d711ba5cef",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/nawall.png",
+      "path": "images/assets/unit-icons/yr/buildings/nawall.png",
+      "bytes": 4802,
+      "sha256": "f58cbc2f36696d1ac3571ab9c5de7ddb5e1690ca0c8204adc9fdbd0d4bddd7fa",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/naweap.png",
+      "path": "images/assets/unit-icons/yr/buildings/naweap.png",
+      "bytes": 4451,
+      "sha256": "9410f79dc3093f444a000c7392b59fb538fb4ddfaa2bcb70ba08267e7fe57768",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/nayard.png",
+      "path": "images/assets/unit-icons/yr/buildings/nayard.png",
+      "bytes": 4560,
+      "sha256": "c8dad6ef0bbb43bb081943fb32f77d0792a26c4be577857fd3d60853733941c8",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/tesla.png",
+      "path": "images/assets/unit-icons/yr/buildings/tesla.png",
+      "bytes": 4131,
+      "sha256": "d7c29389699dd0d4a1582c254cfef5f350323d6f1f142d72e3973ea5968cfedd",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/yabrck.png",
+      "path": "images/assets/unit-icons/yr/buildings/yabrck.png",
+      "bytes": 4478,
+      "sha256": "3b025cbe27ea49581878357aeb089bbe56e16472f33c82416194d4a68ced0bf2",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/yacnst.png",
+      "path": "images/assets/unit-icons/yr/buildings/yacnst.png",
+      "bytes": 1151,
+      "sha256": "6770c1b8652896605f469bdedd15683f7a6a44126779e63e1527c40208ed8448",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/yaggun.png",
+      "path": "images/assets/unit-icons/yr/buildings/yaggun.png",
+      "bytes": 4846,
+      "sha256": "e8c2c880d3b807b397f676bd1d647a088bfbc8bb1d2a8894bb9e767449db1495",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/yagntc.png",
+      "path": "images/assets/unit-icons/yr/buildings/yagntc.png",
+      "bytes": 5490,
+      "sha256": "85713ab26155ee78cff903603541ac219fad52786a39ead5a0ed77796d5e4156",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/yagrnd.png",
+      "path": "images/assets/unit-icons/yr/buildings/yagrnd.png",
+      "bytes": 4668,
+      "sha256": "4acfb345b4e144904b2a3671159858fa12c7e62ff10c1e049f7be67d9050b87b",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/yapowr.png",
+      "path": "images/assets/unit-icons/yr/buildings/yapowr.png",
+      "bytes": 4203,
+      "sha256": "5692236df1203b2cc0767a2f83ede1e0d05e0402d1d2d039f32a00342066f477",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/yappet.png",
+      "path": "images/assets/unit-icons/yr/buildings/yappet.png",
+      "bytes": 3109,
+      "sha256": "52a91ae0918b3004fbc5617270dab601b5dc3425189f17b5eba8de123080eeda",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/yapsyt.png",
+      "path": "images/assets/unit-icons/yr/buildings/yapsyt.png",
+      "bytes": 3410,
+      "sha256": "17304c5064ef31024b3d0d12e756b8c9f29aa71747e0d46563ba9f4fd8252f92",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/yarefn.png",
+      "path": "images/assets/unit-icons/yr/buildings/yarefn.png",
+      "bytes": 4794,
+      "sha256": "e8b8c8dc9996646cfbfc7ec421b493787a2e8357e19214944998c8dc2429f954",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/yatech.png",
+      "path": "images/assets/unit-icons/yr/buildings/yatech.png",
+      "bytes": 3683,
+      "sha256": "ba923e1b67e8978883ea237a905146816ce1a0ee5874cff5854003ac3ccd8fb3",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/yaweap.png",
+      "path": "images/assets/unit-icons/yr/buildings/yaweap.png",
+      "bytes": 4577,
+      "sha256": "7d30b804acbc26b9fe73a7eb1f9b27636fc3f673b3b44ae75e8a2c9aeccf67ff",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/buildings/yayard.png",
+      "path": "images/assets/unit-icons/yr/buildings/yayard.png",
+      "bytes": 4125,
+      "sha256": "47b34b48161f0698b60c473b83d6523b2a6dab9a893cb38ce5515d33c35a1d3f",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/adog.png",
+      "path": "images/assets/unit-icons/yr/units/adog.png",
+      "bytes": 4224,
+      "sha256": "4d0a85c80ed4dca1bc270034267e560e89412e6377e0a39bd57a180029822a5c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/aegis.png",
+      "path": "images/assets/unit-icons/yr/units/aegis.png",
+      "bytes": 4144,
+      "sha256": "0d659ba5cdc7f7f93f65329168c92e1d5352efd05dd1b6ae43098e2ecb9f98b7",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/amcv.png",
+      "path": "images/assets/unit-icons/yr/units/amcv.png",
+      "bytes": 4933,
+      "sha256": "2c01e204a585677f9ad9c4fc4db335e22999855dc90d5117ca8b1d23db25624c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/apoc.png",
+      "path": "images/assets/unit-icons/yr/units/apoc.png",
+      "bytes": 4652,
+      "sha256": "b1094b5736d9e2721ebcc9f4f6fd5eb07d1a380a2d2ec20ae2a6a1f046eaf096",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/beag.png",
+      "path": "images/assets/unit-icons/yr/units/beag.png",
+      "bytes": 2763,
+      "sha256": "cc47dcb03940f2a798ab74a9ab1113f6815ed3c1b7ef39c7bd016ed258d1ff0c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/bfrt.png",
+      "path": "images/assets/unit-icons/yr/units/bfrt.png",
+      "bytes": 4994,
+      "sha256": "0cc309dc8cd4e0667ae7f72067ca4a4722faa71445107c71e958b9dd48c1b60c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/boris.png",
+      "path": "images/assets/unit-icons/yr/units/boris.png",
+      "bytes": 4395,
+      "sha256": "e0efbe88f63e508a219930083af33b70d79f7f3300b3fdd85830b022c863834e",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/brute.png",
+      "path": "images/assets/unit-icons/yr/units/brute.png",
+      "bytes": 5466,
+      "sha256": "9e83bcdd2fd9fbb3d5cdd7dc488cbac24435ab65ea729203c2fe13d6786ef659",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/bsub.png",
+      "path": "images/assets/unit-icons/yr/units/bsub.png",
+      "bytes": 3639,
+      "sha256": "4209be3b616fff13c6d76bc8fdeddff1e082bd46c9333dee9b305a8cda645bec",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/caos.png",
+      "path": "images/assets/unit-icons/yr/units/caos.png",
+      "bytes": 4824,
+      "sha256": "4f23f83847d1b0dd86196b90ec9648eae39fe7ba877ea654115b5460c14999c4",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/carrier.png",
+      "path": "images/assets/unit-icons/yr/units/carrier.png",
+      "bytes": 4654,
+      "sha256": "fe3391dbca1e8824a130a4efc749bc3c286b7b16d848deb43e10945d7bf998d3",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/ccomand.png",
+      "path": "images/assets/unit-icons/yr/units/ccomand.png",
+      "bytes": 5143,
+      "sha256": "6fddf973ee483fc38cd1efc6cd757b9fb84ed1aa4a01512da639219aab8be473",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/civan.png",
+      "path": "images/assets/unit-icons/yr/units/civan.png",
+      "bytes": 5353,
+      "sha256": "7c816707954aafbae42e09e4f2c6c1801f7daba8c8cd1d294ef7aca11efd98f8",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/cleg.png",
+      "path": "images/assets/unit-icons/yr/units/cleg.png",
+      "bytes": 4636,
+      "sha256": "b21c0865b2c06c3230916b56db3314437831deecbcc484ac92fa46837e3f0783",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/cmin.png",
+      "path": "images/assets/unit-icons/yr/units/cmin.png",
+      "bytes": 5158,
+      "sha256": "2eba19fc47cf332eb980e6833086fe65597b6aea98da4f25366f27d20f6eef53",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/deso.png",
+      "path": "images/assets/unit-icons/yr/units/deso.png",
+      "bytes": 4794,
+      "sha256": "3994b45e2beabf43955f0d937f65cd6ec2b9533f7e914a55bc9db5cd4d87fe76",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/dest.png",
+      "path": "images/assets/unit-icons/yr/units/dest.png",
+      "bytes": 5035,
+      "sha256": "09b1b925a0e83b5bdf784d86621f6e4ac0b0c9665024835ccb84b28ecc9319e4",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/disk.png",
+      "path": "images/assets/unit-icons/yr/units/disk.png",
+      "bytes": 5202,
+      "sha256": "fd9f943436c5a262bdfd5b35cb6ebfaedbb01a466a5497492098c682c5d28bef",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/dlph.png",
+      "path": "images/assets/unit-icons/yr/units/dlph.png",
+      "bytes": 4058,
+      "sha256": "6c6b0a5a7cf33c4681c43fb3f100cf588e3f9037a64fdb0ebb40c55bbf022f1c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/dog.png",
+      "path": "images/assets/unit-icons/yr/units/dog.png",
+      "bytes": 5286,
+      "sha256": "99a6eb1e9b13f243570320aadc3b9568ed87bf8d884ab710bae2ba7e275466ec",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/dred.png",
+      "path": "images/assets/unit-icons/yr/units/dred.png",
+      "bytes": 4640,
+      "sha256": "df2f2bd5c4a1c33f4ce1d17178388701ee5c5d9ff2997f2d68a5a7e63f9f750c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/dron.png",
+      "path": "images/assets/unit-icons/yr/units/dron.png",
+      "bytes": 5795,
+      "sha256": "ec894149f1fd538bd2ad6fb25d3c4390e3d565853e7d8fe22dcb9d27a42d8662",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/dtruck.png",
+      "path": "images/assets/unit-icons/yr/units/dtruck.png",
+      "bytes": 4650,
+      "sha256": "540fcb1ff8d835e4959480cc0d21b2a38281d7ed08885e8f2f8618003d4e3fb2",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/e1.png",
+      "path": "images/assets/unit-icons/yr/units/e1.png",
+      "bytes": 4708,
+      "sha256": "ed91a12e1965baa15c078129fb346cd3de0bca17d8c9d7d9c36b7a6786ed7d21",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/e2.png",
+      "path": "images/assets/unit-icons/yr/units/e2.png",
+      "bytes": 4663,
+      "sha256": "82f150d407ec468933c80bf106617389fabb03772df8f4fdf64842cd8fe2b255",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/engineer.png",
+      "path": "images/assets/unit-icons/yr/units/engineer.png",
+      "bytes": 6204,
+      "sha256": "65d323218ddf7ea9606798591d7b9fe7fba479a5f3fee443d2e4a2c7c18cfe32",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/flakt.png",
+      "path": "images/assets/unit-icons/yr/units/flakt.png",
+      "bytes": 4329,
+      "sha256": "4a02939d64ce340202e626bc6a5dd73aa6118216126807a91d19b00019346a25",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/fv.png",
+      "path": "images/assets/unit-icons/yr/units/fv.png",
+      "bytes": 4673,
+      "sha256": "3a20e9c50f3b205308fcaaf0af5b5051397022e7c15700998773b4302b3035ab",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/ggi.png",
+      "path": "images/assets/unit-icons/yr/units/ggi.png",
+      "bytes": 4270,
+      "sha256": "24472e0dee168a828f1691576f34d3990898ed88c24c16dee08b400fc10aa004",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/ghost.png",
+      "path": "images/assets/unit-icons/yr/units/ghost.png",
+      "bytes": 5393,
+      "sha256": "10995d4ccb285d4c63159f17f18331403d65ad4cdce2d23923cf6a8bd622967f",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/harv.png",
+      "path": "images/assets/unit-icons/yr/units/harv.png",
+      "bytes": 5212,
+      "sha256": "fe429c2205df94b5583f515d6d6a491ded4cda4fe21182d2f803262c7bbe8cdc",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/htk.png",
+      "path": "images/assets/unit-icons/yr/units/htk.png",
+      "bytes": 4426,
+      "sha256": "09e20b59e9fc00f634011ad2f6a3aae69b122759874c5137684e3859915b5f3c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/htnk.png",
+      "path": "images/assets/unit-icons/yr/units/htnk.png",
+      "bytes": 3879,
+      "sha256": "417a6766dcc2d1ec90a48f10f148a4c61e5c5561ba45db01d5f38b966bc30103",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/hyd.png",
+      "path": "images/assets/unit-icons/yr/units/hyd.png",
+      "bytes": 4614,
+      "sha256": "3d3ee5629bec1394d9d2efa7e0991dd26bdf94811351438cf7a5ef021776731d",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/init.png",
+      "path": "images/assets/unit-icons/yr/units/init.png",
+      "bytes": 4196,
+      "sha256": "d28dfdcb405f067031f88b111a61f3163eb558e14ac3ed4ff99ae65ac1b8fe81",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/ivan.png",
+      "path": "images/assets/unit-icons/yr/units/ivan.png",
+      "bytes": 4361,
+      "sha256": "34048b9e19313cf35b195df56b890e5b025e7a9e3e2b1f2b31ba6c16cfe6bb9c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/jumpjet.png",
+      "path": "images/assets/unit-icons/yr/units/jumpjet.png",
+      "bytes": 4159,
+      "sha256": "962b9ee923156972a74bae862f33fd4fcbafd67d7629973ea8e4afcf91e947d7",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/lcrf.png",
+      "path": "images/assets/unit-icons/yr/units/lcrf.png",
+      "bytes": 5079,
+      "sha256": "6fc779ef00940fd8dd161ffe318b116f86ecb72a0b0c7f49c50364173079294c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/ltnk.png",
+      "path": "images/assets/unit-icons/yr/units/ltnk.png",
+      "bytes": 5033,
+      "sha256": "dcb1096615cb11c0f6bf195d4fc4697433719692f6a3b775e84c25ab752ddfeb",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/lunr.png",
+      "path": "images/assets/unit-icons/yr/units/lunr.png",
+      "bytes": 5206,
+      "sha256": "9462d37e9d35a6b6e37fc51ced5d90eab2d8456a94b9c569151c3b3bffc10f9e",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/mgtk.png",
+      "path": "images/assets/unit-icons/yr/units/mgtk.png",
+      "bytes": 5153,
+      "sha256": "0e1e51485a14336cd21fe9b907944191137b11045eecadd5b68b97b8d1283d22",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/mind.png",
+      "path": "images/assets/unit-icons/yr/units/mind.png",
+      "bytes": 5526,
+      "sha256": "a9f57a73f26e937cddcb1bbc3f179665469fb933b6569acd8fd088b5b0351896",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/mtnk.png",
+      "path": "images/assets/unit-icons/yr/units/mtnk.png",
+      "bytes": 4411,
+      "sha256": "4b110c6a2369d4950575015db71ff354d571087dce774ad52bab20220ec8fd4d",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/orca.png",
+      "path": "images/assets/unit-icons/yr/units/orca.png",
+      "bytes": 4605,
+      "sha256": "56150fa2ee64993ff2d5f0664ad244c5fc335d5638f154b853865aa11c568beb",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/pcv.png",
+      "path": "images/assets/unit-icons/yr/units/pcv.png",
+      "bytes": 4782,
+      "sha256": "3457fc12cbc829210ca63d03365b8be55a4b2c027933a8206b2744a220273f0e",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/ptroop.png",
+      "path": "images/assets/unit-icons/yr/units/ptroop.png",
+      "bytes": 4267,
+      "sha256": "ae1c0d02bcd1e43c07ff681964bfb6efea5f87366312d63d59dceb1512277831",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/robo.png",
+      "path": "images/assets/unit-icons/yr/units/robo.png",
+      "bytes": 4649,
+      "sha256": "dc155b82647e415eabd65353c2c8f8214e3869c96e671e5cd3b1f468caa82e03",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/sapc.png",
+      "path": "images/assets/unit-icons/yr/units/sapc.png",
+      "bytes": 4919,
+      "sha256": "e69982a950043344369bcc6e278eadf8e8201733c8a73d65709ff4cc4013fa6c",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/schp.png",
+      "path": "images/assets/unit-icons/yr/units/schp.png",
+      "bytes": 4874,
+      "sha256": "b44176bbecd55a9dfb22cb8d194cad060c9c5ded5e375d29e0f013aac099f263",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/sengineer.png",
+      "path": "images/assets/unit-icons/yr/units/sengineer.png",
+      "bytes": 6204,
+      "sha256": "65d323218ddf7ea9606798591d7b9fe7fba479a5f3fee443d2e4a2c7c18cfe32",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/shad.png",
+      "path": "images/assets/unit-icons/yr/units/shad.png",
+      "bytes": 4655,
+      "sha256": "d44533a95eeb62d57f4e7eac6159c695895a37da676af751d277b49a2bbb49ee",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/shk.png",
+      "path": "images/assets/unit-icons/yr/units/shk.png",
+      "bytes": 5470,
+      "sha256": "1b33022fd276d2aeaafbd2d1c16e8af873c15c3cd6c95ca9fcc3a5a87913ae76",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/smcv.png",
+      "path": "images/assets/unit-icons/yr/units/smcv.png",
+      "bytes": 4830,
+      "sha256": "572e6b734aca3ee460d8732d7c53c72bf2bfde73ccc01f0685fb7b4ff87a9eea",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/smin.png",
+      "path": "images/assets/unit-icons/yr/units/smin.png",
+      "bytes": 4794,
+      "sha256": "e8b8c8dc9996646cfbfc7ec421b493787a2e8357e19214944998c8dc2429f954",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/snipe.png",
+      "path": "images/assets/unit-icons/yr/units/snipe.png",
+      "bytes": 4283,
+      "sha256": "f23c499ad4724865cbb7cff845bcfb0ac3a32e0c9afad7017e4cb5db541c1493",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/spy.png",
+      "path": "images/assets/unit-icons/yr/units/spy.png",
+      "bytes": 4544,
+      "sha256": "638ef8af7d0f4233494464218f7b27b3418b3b0ed5f51683e5bd10ae972116d7",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/sqd.png",
+      "path": "images/assets/unit-icons/yr/units/sqd.png",
+      "bytes": 3969,
+      "sha256": "9c98b34d0b0c66b50d5557c7cd5adf097f9c48e5a8c806357016b6a731cae043",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/sref.png",
+      "path": "images/assets/unit-icons/yr/units/sref.png",
+      "bytes": 4912,
+      "sha256": "d6e35aea65bc1705f0f7366948717b3ed69c0e519e7214cbfd1df0dc62b9abc3",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/sub.png",
+      "path": "images/assets/unit-icons/yr/units/sub.png",
+      "bytes": 5146,
+      "sha256": "7c33a05cd5a0691d33450d2a6b1493aca10cc3cfe4a3b30b07e7a5e1f4910bcf",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/tany.png",
+      "path": "images/assets/unit-icons/yr/units/tany.png",
+      "bytes": 5092,
+      "sha256": "613243ed86ea08d206accc266fbed9c28e5a1859c3af424265590697e54b6666",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/tele.png",
+      "path": "images/assets/unit-icons/yr/units/tele.png",
+      "bytes": 5158,
+      "sha256": "65b92648abc598db99eb3d457f9242bcbe6803dc0ab1bf90db8229e1450145a7",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/terror.png",
+      "path": "images/assets/unit-icons/yr/units/terror.png",
+      "bytes": 4270,
+      "sha256": "1c04c2bd24fcadf0d8e65ebc3ade6b79d13c955622395f6e172e7e058c0c2ebf",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/tnkd.png",
+      "path": "images/assets/unit-icons/yr/units/tnkd.png",
+      "bytes": 4812,
+      "sha256": "410d8f9f9fe24298fea77fdfc4dac41337b271da48e7b8de4ad51754676deca8",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/ttnk.png",
+      "path": "images/assets/unit-icons/yr/units/ttnk.png",
+      "bytes": 4719,
+      "sha256": "130f87f0f886f977b43b7d6fd08b6bbe19fc3a82128775504e39c06f34ef7562",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/v3.png",
+      "path": "images/assets/unit-icons/yr/units/v3.png",
+      "bytes": 4293,
+      "sha256": "78caa3ad05d0112a0376c7d6b5d1c319bae136bae203f95d15de51e58770e47f",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/virus.png",
+      "path": "images/assets/unit-icons/yr/units/virus.png",
+      "bytes": 4545,
+      "sha256": "c43e5c2cccf254bb36cf8fd3e71dbc513022a8ffa953de52525b22f65e4eb622",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/yengineer.png",
+      "path": "images/assets/unit-icons/yr/units/yengineer.png",
+      "bytes": 6204,
+      "sha256": "65d323218ddf7ea9606798591d7b9fe7fba479a5f3fee443d2e4a2c7c18cfe32",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/yhvr.png",
+      "path": "images/assets/unit-icons/yr/units/yhvr.png",
+      "bytes": 4473,
+      "sha256": "3d4545d264021af0a299a6738342faeeab9c707c952167b1cee0254ac29dfc92",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/ytnk.png",
+      "path": "images/assets/unit-icons/yr/units/ytnk.png",
+      "bytes": 4523,
+      "sha256": "f757dd8215e85cc79ae06ab7ea802e31ceaf7920b26fc10d343c31c8f880e049",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/yuri.png",
+      "path": "images/assets/unit-icons/yr/units/yuri.png",
+      "bytes": 4363,
+      "sha256": "b4461c5c06db2585a2a0f0fef385717e89eea9c268d24d3f6ba794f85242412a",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/yuripr.png",
+      "path": "images/assets/unit-icons/yr/units/yuripr.png",
+      "bytes": 4788,
+      "sha256": "00176f8367320fef9d741274d616c87c8d806157457c4e76552ff8681dce33d7",
+      "width": 60,
+      "height": 48
+    },
+    {
+      "source": "assets/unit-icons/yr/units/zep.png",
+      "path": "images/assets/unit-icons/yr/units/zep.png",
+      "bytes": 4470,
+      "sha256": "f22400831ed4112d27a7f36123372c2525de2a65356078bbf2f4097409758487",
+      "width": 60,
+      "height": 48
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.playwright-cli/
+output/
+release/
+__pycache__/
+*.py[cod]
+data/game-audit/sources/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
